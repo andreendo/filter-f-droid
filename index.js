@@ -2,6 +2,7 @@ const { ensureDirSync, pathExists } = require('fs-extra');
 const fsp = require('fs').promises;
 const download = require('download');
 const { DOMParser } = require('xmldom');
+const R = require('ramda');
 
 const dowloadFdroidXML = async () => {
     console.log('start downloading f-droid.xml');
@@ -9,9 +10,13 @@ const dowloadFdroidXML = async () => {
     await fsp.rename('res/index.xml', 'res/f-droid.xml');
 }
 
-const contentOfTag = (xmlNode, tagName) => xmlNode.getElementsByTagName(tagName)[0].textContent;
-
-const getGitHubProject = xmlNode => contentOfTag(xmlNode, 'source').replace('https://github.com/', '');
+const contentOfTag = R.curry(
+    (xmlNode, tagName) => xmlNode.getElementsByTagName(tagName)[0].textContent
+);
+const contentOfSource = contentOfTag(R.__, 'source');
+const contentOfAdded = contentOfTag(R.__, 'added');
+const contentOfUpdated = contentOfTag(R.__, 'lastupdated');
+const getGitHubProject = xmlNode => contentOfSource(xmlNode).replace('https://github.com/', '');
 
 const elementsToArray = nodes => {
     const arr = [];
@@ -20,23 +25,26 @@ const elementsToArray = nodes => {
     return arr;
 };
 
-const isValid = app => {
-    if (!contentOfTag(app, 'source').includes('github.com'))
-        return false;
+const isValid = R.curry(
+    (app, addedAfterYear, updatedAfterYear) => {
+        if (!contentOfSource(app).includes('github.com'))
+            return false;
 
-    //added date >= 2018
-    const addedDate = new Date(contentOfTag(app, 'added'));
-    if (addedDate.getFullYear() < 2018)
-        return false;
+        const addedDate = new Date(contentOfAdded(app));
+        if (addedDate.getFullYear() < addedAfterYear)
+            return false;
 
-    //updated date >= 2019
-    const lastUpdatedDate = new Date(contentOfTag(app, 'lastupdated'));
-    if (lastUpdatedDate.getFullYear() < 2019)
-        return false;
+        const lastUpdatedDate = new Date(contentOfUpdated(app));
+        if (lastUpdatedDate.getFullYear() < updatedAfterYear)
+            return false;
 
-    return true;
-}
+        return true;
+    }
+);
 
+const isAddedAfter2018AndUpdatedAfter2019 = isValid(R.__, 2018, 2019);
+
+// main
 (async () => {
     ensureDirSync('res');
 
@@ -45,9 +53,8 @@ const isValid = app => {
 
     const document = new DOMParser().parseFromString(await fsp.readFile('res/f-droid.xml', 'utf-8'));
     const addedApps = elementsToArray(document.getElementsByTagName('application'))
-        .filter(isValid)
+        .filter(isAddedAfter2018AndUpdatedAfter2019)
         .map(getGitHubProject);
 
     console.log(addedApps.join('\n'));
-    console.log(addedApps.length);
 })();
