@@ -1,0 +1,2074 @@
+[
+    {
+        "GHProjectName": "tkrajina/10000sentences",
+        "packageID": "info.puzz.a10000sentences"
+    },
+    {
+        "GHProjectName": "LonamiWebs/Klooni1010",
+        "packageID": "dev.lonami.klooni"
+    },
+    {
+        "GHProjectName": "lolo-io/OneList",
+        "packageID": "com.lolo.io.onelist"
+    },
+    {
+        "GHProjectName": "HassanHeydariNasab/2-player-battle",
+        "packageID": "ir.hsn6.tpb"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-2048",
+        "packageID": "org.secuso.privacyfriendly2048"
+    },
+    {
+        "GHProjectName": "mattvchandler/2050",
+        "packageID": "org.mattvchandler.a2050"
+    },
+    {
+        "GHProjectName": "EventInfra/wifisetup",
+        "packageID": "nl.eventinfra.wifisetup"
+    },
+    {
+        "GHProjectName": "tube42/9p",
+        "packageID": "se.tube42.p9.android"
+    },
+    {
+        "GHProjectName": "itkach/aard2-android",
+        "packageID": "itkach.aard2"
+    },
+    {
+        "GHProjectName": "gjedeer/Acastus",
+        "packageID": "name.gdr.acastus_photon"
+    },
+    {
+        "GHProjectName": "MatteCarra/AccA",
+        "packageID": "mattecarra.accapp"
+    },
+    {
+        "GHProjectName": "ramack/ActivityDiary",
+        "packageID": "de.rampro.activitydiary"
+    },
+    {
+        "GHProjectName": "GermainZ/ActivityForceNewTask",
+        "packageID": "com.germainz.activityforcenewtask"
+    },
+    {
+        "GHProjectName": "rascarlo/AdaptiveBrightnessTile",
+        "packageID": "com.rascarlo.adaptive.brightness.tile"
+    },
+    {
+        "GHProjectName": "AdguardTeam/ContentBlocker",
+        "packageID": "com.adguard.android.contentblocker"
+    },
+    {
+        "GHProjectName": "beemdevelopment/Aegis",
+        "packageID": "com.beemdevelopment.aegis"
+    },
+    {
+        "GHProjectName": "HackMyChurch/aelf-dailyreadings",
+        "packageID": "co.epitre.aelf_lectures"
+    },
+    {
+        "GHProjectName": "huckleberrypie/Argentum",
+        "packageID": "org.strawberryforum.argentum"
+    },
+    {
+        "GHProjectName": "Webierta/ahorcandroid",
+        "packageID": "com.ahorcado"
+    },
+    {
+        "GHProjectName": "fennifith/Alarmio",
+        "packageID": "me.jfenn.alarmio"
+    },
+    {
+        "GHProjectName": "Domi04151309/AlwaysOn",
+        "packageID": "io.github.domi04151309.alwayson"
+    },
+    {
+        "GHProjectName": "fr3ts0n/AndrOBD-Plugin",
+        "packageID": "com.fr3ts0n.androbd.plugin.gpsprovider"
+    },
+    {
+        "GHProjectName": "gryphius/androdns",
+        "packageID": "androdns.android.leetdreams.ch.androdns"
+    },
+    {
+        "GHProjectName": "google/samba-documents-provider",
+        "packageID": "com.google.android.sambadocumentsprovider"
+    },
+    {
+        "GHProjectName": "jkennethcarino/AnkiEditor",
+        "packageID": "com.jkcarino.ankieditor"
+    },
+    {
+        "GHProjectName": "EXALAB/AnLinux-Adfree",
+        "packageID": "exa.lnx.a"
+    },
+    {
+        "GHProjectName": "lucasnlm/antimine-android",
+        "packageID": "dev.lucanlm.antimine"
+    },
+    {
+        "GHProjectName": "SubhamTyagi/AppLock",
+        "packageID": "io.github.subhamtyagi.privacyapplock"
+    },
+    {
+        "GHProjectName": "8enet/AppOpsX",
+        "packageID": "com.zzzmode.appopsx"
+    },
+    {
+        "GHProjectName": "z3r0c00l-2k/AquaDroid",
+        "packageID": "io.github.z3r0c00l_2k.aquadroid"
+    },
+    {
+        "GHProjectName": "rascarlo/ArchPackages",
+        "packageID": "com.rascarlo.arch.packages"
+    },
+    {
+        "GHProjectName": "devgianlu/Aria2Android",
+        "packageID": "com.gianlu.aria2android"
+    },
+    {
+        "GHProjectName": "devgianlu/Aria2App",
+        "packageID": "com.gianlu.aria2app"
+    },
+    {
+        "GHProjectName": "GarrettBeatty/arXiv-eXplorer",
+        "packageID": "com.gbeatty.arxiv"
+    },
+    {
+        "GHProjectName": "cmeng-git/atalk-android",
+        "packageID": "org.atalk.android"
+    },
+    {
+        "GHProjectName": "wrmndfzzy/Atomize",
+        "packageID": "com.wrmndfzzy.atomize"
+    },
+    {
+        "GHProjectName": "HassanHeydariNasab/atop-react-native",
+        "packageID": "com.atop"
+    },
+    {
+        "GHProjectName": "AdrienPoupa/AttestationDeplacement",
+        "packageID": "com.poupa.attestationdeplacement"
+    },
+    {
+        "GHProjectName": "flackbash/AudioAnchor",
+        "packageID": "com.prangesoftwaresolutions.audioanchor"
+    },
+    {
+        "GHProjectName": "Governikus/AusweisApp2",
+        "packageID": "com.governikus.ausweisapp2"
+    },
+    {
+        "GHProjectName": "tejado/Authorizer",
+        "packageID": "net.tjado.passwdsafe"
+    },
+    {
+        "GHProjectName": "authpass/authpass",
+        "packageID": "design.codeux.authpass.fdroid"
+    },
+    {
+        "GHProjectName": "fossasia/badge-magic-android",
+        "packageID": "org.fossasia.badgemagic"
+    },
+    {
+        "GHProjectName": "UriahShaulMandel/BaldPhone",
+        "packageID": "com.bald.uriah.baldphone"
+    },
+    {
+        "GHProjectName": "juha-h/baresip-studio",
+        "packageID": "com.tutpro.baresip"
+    },
+    {
+        "GHProjectName": "sarbajitsaha/Batch-Uninstaller",
+        "packageID": "com.saha.batchuninstaller"
+    },
+    {
+        "GHProjectName": "phrogg/BatteryCalibrator",
+        "packageID": "eu.roggstar.luigithehunter.batterycalibrate"
+    },
+    {
+        "GHProjectName": "vitSkalicky/lepsi-rozvrh",
+        "packageID": "cz.vitskalicky.lepsirozvrh"
+    },
+    {
+        "GHProjectName": "SapuSeven/BetterUntis",
+        "packageID": "com.sapuseven.untis"
+    },
+    {
+        "GHProjectName": "niccokunzmann/bhagavad-gita-android",
+        "packageID": "eu.quelltext.gita"
+    },
+    {
+        "GHProjectName": "markusfisch/BinaryEye",
+        "packageID": "de.markusfisch.android.binaryeye"
+    },
+    {
+        "GHProjectName": "WebBluetoothCG/ble-test-peripheral-android",
+        "packageID": "io.github.webbluetoothcg.bletestperipheral"
+    },
+    {
+        "GHProjectName": "wuan/bo-android",
+        "packageID": "org.blitzortung.android.app"
+    },
+    {
+        "GHProjectName": "vanous/BlitzTypeKeyboard",
+        "packageID": "nodomain.vanous.blitztypekeyboard"
+    },
+    {
+        "GHProjectName": "travistynes/block6",
+        "packageID": "com.jellyshack.block6"
+    },
+    {
+        "GHProjectName": "sensebox/blockly-app",
+        "packageID": "de.sensebox.blockly"
+    },
+    {
+        "GHProjectName": "btcontract/lnwallet",
+        "packageID": "com.lightning.walletapp"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-boardgame-clock",
+        "packageID": "org.secuso.privacyfriendlyboardgameclock"
+    },
+    {
+        "GHProjectName": "iamSahdeep/Bop",
+        "packageID": "com.sahdeepsingh.Bop"
+    },
+    {
+        "GHProjectName": "De7vID/klingon-assistant-android",
+        "packageID": "org.tlhInganHol.android.klingonassistant"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/BrainstonzForAndroid",
+        "packageID": "eu.veldsoft.brainstonz"
+    },
+    {
+        "GHProjectName": "mmazzarolo/breathly-app",
+        "packageID": "com.mmazzarolo.breathly"
+    },
+    {
+        "GHProjectName": "anisse/bepo-android",
+        "packageID": "fr.bepo.clavierexterne"
+    },
+    {
+        "GHProjectName": "c-base/c-beam-droid",
+        "packageID": "org.c_base.c_beam"
+    },
+    {
+        "GHProjectName": "tananaev/calculator-notification",
+        "packageID": "com.tananaev.calculator"
+    },
+    {
+        "GHProjectName": "Bubu/android-calculatorpp",
+        "packageID": "org.solovyev.android.calculator"
+    },
+    {
+        "GHProjectName": "Amerlander/Calliope-Android-App",
+        "packageID": "cc.calliope.mini"
+    },
+    {
+        "GHProjectName": "shoukolate/CalorieScope",
+        "packageID": "org.dynamicsoft.caloriescope"
+    },
+    {
+        "GHProjectName": "EventFahrplan/EventFahrplan",
+        "packageID": "info.metadude.android.congress.schedule"
+    },
+    {
+        "GHProjectName": "ThaChillera/CardScore",
+        "packageID": "io.github.thachillera.cardsscorekeeper"
+    },
+    {
+        "GHProjectName": "CarnetApp/CarnetFdroid",
+        "packageID": "com.spisoft.quicknote"
+    },
+    {
+        "GHProjectName": "PierreBresson/Cause-Commune",
+        "packageID": "com.cause.commune"
+    },
+    {
+        "GHProjectName": "bernaferrari/ChangeDetection",
+        "packageID": "com.bernaferrari.changedetection"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-dame",
+        "packageID": "org.secuso.privacyfriendlydame"
+    },
+    {
+        "GHProjectName": "carlphilipp/chicago-commutes",
+        "packageID": "fr.cph.chicago.foss"
+    },
+    {
+        "GHProjectName": "marcelklehr/chordreader",
+        "packageID": "org.handmadeideas.chordreader"
+    },
+    {
+        "GHProjectName": "Alcidauk/CineLog",
+        "packageID": "com.ulicae.cinelog"
+    },
+    {
+        "GHProjectName": "MalcolmScruggs/CircoIconPack",
+        "packageID": "com.mookie.circo"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-circuit-training-exercises",
+        "packageID": "org.secuso.privacyfriendlycircuittraining"
+    },
+    {
+        "GHProjectName": "DeweyReed/ClipboardCleaner",
+        "packageID": "io.github.deweyreed.clipboardcleaner"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-CLock",
+        "packageID": "com.simplemobiletools.clock"
+    },
+    {
+        "GHProjectName": "jtsalva/cloudmare",
+        "packageID": "dev.jtsalva.cloudmare"
+    },
+    {
+        "GHProjectName": "collideorscopeapps/codename_hippopotamos",
+        "packageID": "it.collideorscopeapps.codename_hippopotamos"
+    },
+    {
+        "GHProjectName": "Sav22999/common-voice-android",
+        "packageID": "org.commonvoice.saverio"
+    },
+    {
+        "GHProjectName": "bradyt/cone",
+        "packageID": "info.tangential.cone"
+    },
+    {
+        "GHProjectName": "benjaminSchilling33/congress_fahrplan",
+        "packageID": "de.delusionsoftware.congress_fahrplan"
+    },
+    {
+        "GHProjectName": "fraygeyst/Contactbook",
+        "packageID": "de.hskl.contacts"
+    },
+    {
+        "GHProjectName": "experiment322/controlloid-client",
+        "packageID": "com.controlloid"
+    },
+    {
+        "GHProjectName": "devasworski/Corona-Info",
+        "packageID": "com.corona_info"
+    },
+    {
+        "GHProjectName": "SimoneTinella/Stato_COVID19_Italia_Android",
+        "packageID": "org.twistedappdeveloper.statocovid19italia"
+    },
+    {
+        "GHProjectName": "GabrielTavernini/Covid19Stats",
+        "packageID": "com.gabriel.covid19stats"
+    },
+    {
+        "GHProjectName": "kamgurgul/cpu-info",
+        "packageID": "com.kgurgul.cpuinfo"
+    },
+    {
+        "GHProjectName": "bitcraze/crazyflie-android-client",
+        "packageID": "se.bitcraze.crazyfliecontrol2"
+    },
+    {
+        "GHProjectName": "samotari/crypto-terminal",
+        "packageID": "com.github.samotari.cryptoterminal"
+    },
+    {
+        "GHProjectName": "CTemplar/android",
+        "packageID": "com.ctemplar.app.fdroid"
+    },
+    {
+        "GHProjectName": "wownero/cyberwow",
+        "packageID": "org.wownero.cyberwow"
+    },
+    {
+        "GHProjectName": "vitSkalicky/klavesnice",
+        "packageID": "cz.vitSkalicky.klavesnice"
+    },
+    {
+        "GHProjectName": "nutritionfactsorg/daily-dozen-android",
+        "packageID": "org.nutritionfacts.dailydozen"
+    },
+    {
+        "GHProjectName": "flex3r/DankChat",
+        "packageID": "com.flxrs.dankchat"
+    },
+    {
+        "GHProjectName": "SpiritCroc/DarkCroc-Android-theme",
+        "packageID": "de.spiritcroc.darkcroc.substratum"
+    },
+    {
+        "GHProjectName": "akhavr/electrum-dash",
+        "packageID": "org.dash.electrum.electrum_dash"
+    },
+    {
+        "GHProjectName": "HashEngineeringSolutions/dash-wallet",
+        "packageID": "hashengineering.darkcoin.wallet"
+    },
+    {
+        "GHProjectName": "johnjohndoe/CampFahrplan",
+        "packageID": "info.metadude.android.bitsundbaeume.schedule"
+    },
+    {
+        "GHProjectName": "39aldo39/DecSyncCC",
+        "packageID": "org.decsync.cc"
+    },
+    {
+        "GHProjectName": "SpiritCroc/DefaultDarkTheme-oms",
+        "packageID": "de.spiritcroc.defaultdarktheme_oms"
+    },
+    {
+        "GHProjectName": "demokratie-live/democracy-client",
+        "packageID": "de.democracydeutschland.app"
+    },
+    {
+        "GHProjectName": "bvlj/diab",
+        "packageID": "it.diab"
+    },
+    {
+        "GHProjectName": "Faltenreich/Diaguard",
+        "packageID": "com.faltenreich.diaguard"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Dialer",
+        "packageID": "com.simplemobiletools.dialer"
+    },
+    {
+        "GHProjectName": "jeffisaak/diceware-pass-gen",
+        "packageID": "com.aptasystems.dicewarepasswordgenerator"
+    },
+    {
+        "GHProjectName": "tunjid/digilux-android",
+        "packageID": "com.tunjid.fingergestures"
+    },
+    {
+        "GHProjectName": "aceventura82/AppsDisabler",
+        "packageID": "com.servoz.appsdisabler"
+    },
+    {
+        "GHProjectName": "beegee-tokyo/disaster-radio-android",
+        "packageID": "tk.giesecke.disaster_radio"
+    },
+    {
+        "GHProjectName": "amirzaidi/DNGProcessor",
+        "packageID": "amirz.dngprocessor"
+    },
+    {
+        "GHProjectName": "devgianlu/DNSHero",
+        "packageID": "com.gianlu.dnshero"
+    },
+    {
+        "GHProjectName": "IngoZenz/personaldnsfilter",
+        "packageID": "dnsfilter.android"
+    },
+    {
+        "GHProjectName": "fabienli/DokuwikiAndroid",
+        "packageID": "com.fabienli.dokuwiki"
+    },
+    {
+        "GHProjectName": "TachibanaGeneralLaboratories/download-navi",
+        "packageID": "com.tachibana.downloader"
+    },
+    {
+        "GHProjectName": "zhenyolka/DPITunnel",
+        "packageID": "ru.evgeniy.dpitunnel"
+    },
+    {
+        "GHProjectName": "sreichholf/dreamDroid",
+        "packageID": "net.reichholf.dreamdroid"
+    },
+    {
+        "GHProjectName": "phrogg/DSAAssistant",
+        "packageID": "eu.roggstar.luigithehunter.dsaassistent"
+    },
+    {
+        "GHProjectName": "scintill/DuOTP-android",
+        "packageID": "net.scintill.duotp"
+    },
+    {
+        "GHProjectName": "renyuneyun/Easer",
+        "packageID": "ryey.easer"
+    },
+    {
+        "GHProjectName": "hanjoongcho/aaf-easydiary",
+        "packageID": "me.blog.korn123.easydiary"
+    },
+    {
+        "GHProjectName": "code-crusher/EasyWeather",
+        "packageID": "github.vatsal.easyweatherdemo"
+    },
+    {
+        "GHProjectName": "NachiketaVadera/EBookDownloader",
+        "packageID": "android.nachiketa.ebookdownloader"
+    },
+    {
+        "GHProjectName": "marv42/EbtNewNote",
+        "packageID": "com.marv42.ebt.newnote"
+    },
+    {
+        "GHProjectName": "GEANT/CAT-Android",
+        "packageID": "uk.ac.swansea.eduroamcat"
+    },
+    {
+        "GHProjectName": "HenriDellal/emerald-dialer",
+        "packageID": "ru.henridellal.dialer"
+    },
+    {
+        "GHProjectName": "mkulesh/onpc",
+        "packageID": "com.mkulesh.onpc"
+    },
+    {
+        "GHProjectName": "red-coracle/episodes",
+        "packageID": "com.redcoracle.episodes"
+    },
+    {
+        "GHProjectName": "damiengo/WebsiteRSS",
+        "packageID": "com.damiengo.websiterss"
+    },
+    {
+        "GHProjectName": "y20k/escapepod",
+        "packageID": "org.y20k.escapepod"
+    },
+    {
+        "GHProjectName": "clemensbartz/essential-launcher",
+        "packageID": "de.clemensbartz.android.launcher"
+    },
+    {
+        "GHProjectName": "EtchDroid/EtchDroid",
+        "packageID": "eu.depau.etchdroid"
+    },
+    {
+        "GHProjectName": "AndreMiras/EtherollApp",
+        "packageID": "com.github.andremiras.etheroll"
+    },
+    {
+        "GHProjectName": "Somethingweirdhere/Mining-Helper-for-EVE-Online",
+        "packageID": "com.GTP.eveminer"
+    },
+    {
+        "GHProjectName": "danvratil/FBEventSync",
+        "packageID": "cz.dvratil.fbeventsync"
+    },
+    {
+        "GHProjectName": "fossasia/open-event-attendee-android",
+        "packageID": "com.eventyay.attendee"
+    },
+    {
+        "GHProjectName": "fossasia/open-event-organizer-android",
+        "packageID": "com.eventyay.organizer"
+    },
+    {
+        "GHProjectName": "Exodus-Privacy/exodus-android-app",
+        "packageID": "org.eu.exodus_privacy.exodusprivacy"
+    },
+    {
+        "GHProjectName": "davidar/fabularium",
+        "packageID": "io.davidar.fabularium"
+    },
+    {
+        "GHProjectName": "M66B/FairEmail",
+        "packageID": "eu.faircode.email"
+    },
+    {
+        "GHProjectName": "ligi/FAST",
+        "packageID": "org.ligi.fast"
+    },
+    {
+        "GHProjectName": "pla1/FediPhoto",
+        "packageID": "com.fediphoto"
+    },
+    {
+        "GHProjectName": "zouroboros/feed-watcher",
+        "packageID": "me.murks.feedwatcher"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-finance-manager",
+        "packageID": "org.secuso.privacyfriendlyfinancemanager"
+    },
+    {
+        "GHProjectName": "Seva-coder/Finder",
+        "packageID": "ru.seva.finder"
+    },
+    {
+        "GHProjectName": "emansih/FireflyMobile",
+        "packageID": "xyz.hisname.fireflyiii"
+    },
+    {
+        "GHProjectName": "cubei/flashcards",
+        "packageID": "com.quchen.flashcard"
+    },
+    {
+        "GHProjectName": "sterrenburg/flutterhole",
+        "packageID": "sterrenburg.github.flutterhole"
+    },
+    {
+        "GHProjectName": "FredJul/Flym",
+        "packageID": "net.frju.flym"
+    },
+    {
+        "GHProjectName": "flyve-mdm/android-mdm-agent",
+        "packageID": "org.flyve.mdm.agent.mqtt"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-food-tracker",
+        "packageID": "org.secuso.privacyfriendlyfoodtracker"
+    },
+    {
+        "GHProjectName": "Rohithkvsp/Form-N-Fun",
+        "packageID": "com.formfun"
+    },
+    {
+        "GHProjectName": "jfilter/frag-den-staat-app",
+        "packageID": "de.fragdenstaat.app"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/FreeKlondike",
+        "packageID": "eu.veldsoft.free.klondike"
+    },
+    {
+        "GHProjectName": "KillerInk/FreeDcam",
+        "packageID": "troop.com.freedcam"
+    },
+    {
+        "GHProjectName": "helloworld1/FreeOTPPlus",
+        "packageID": "org.liberty.android.freeotpplus"
+    },
+    {
+        "GHProjectName": "TheChiefMeat/FreeTusky",
+        "packageID": "com.thechiefmeat.freetusky"
+    },
+    {
+        "GHProjectName": "AllanWang/Frost-for-Facebook",
+        "packageID": "com.pitchedapps.frost"
+    },
+    {
+        "GHProjectName": "niccokunzmann/mundraub-android",
+        "packageID": "eu.quelltext.mundraub"
+    },
+    {
+        "GHProjectName": "meyerd/funktrainer",
+        "packageID": "de.hosenhasser.funktrainer"
+    },
+    {
+        "GHProjectName": "fyreplace/fyreplace-client-android",
+        "packageID": "app.fyreplace.client"
+    },
+    {
+        "GHProjectName": "dzmanto/foehnix",
+        "packageID": "foehnix.widget"
+    },
+    {
+        "GHProjectName": "R4md4c/GameDealz",
+        "packageID": "de.r4md4c.gamedealz"
+    },
+    {
+        "GHProjectName": "Alikaraki95/Getoffyourphone",
+        "packageID": "com.nephi.getoffyourphone"
+    },
+    {
+        "GHProjectName": "phrogg/GetMiTokens",
+        "packageID": "eu.roggstar.getmitokens"
+    },
+    {
+        "GHProjectName": "easyintent/quickref",
+        "packageID": "io.github.easyintent.quickref"
+    },
+    {
+        "GHProjectName": "CorvetteCole/GotoSleep",
+        "packageID": "com.corvettecole.gotosleep"
+    },
+    {
+        "GHProjectName": "goodtime-productivity/Goodtime",
+        "packageID": "com.apps.adrcotfas.goodtime"
+    },
+    {
+        "GHProjectName": "gotify/android",
+        "packageID": "com.github.gotify"
+    },
+    {
+        "GHProjectName": "tiagoshibata/Android-GPSd-Client",
+        "packageID": "io.github.tiagoshibata.gpsdclient"
+    },
+    {
+        "GHProjectName": "barbeau/gpstest",
+        "packageID": "com.android.gpstest.osmdroid"
+    },
+    {
+        "GHProjectName": "Groestlcoin/groestlcoin-wallet",
+        "packageID": "hashengineering.groestlcoin.wallet"
+    },
+    {
+        "GHProjectName": "7LPdWcaW/GrowTracker-Android",
+        "packageID": "me.anon.grow"
+    },
+    {
+        "GHProjectName": "vbier/habpanelviewer",
+        "packageID": "de.vier_bier.habpanelviewer"
+    },
+    {
+        "GHProjectName": "ktt-ol/hacs",
+        "packageID": "io.mainframe.hacs"
+    },
+    {
+        "GHProjectName": "Stefan-Gernhardt/Haltestellenanzeige",
+        "packageID": "org.sge.haltestellenanzeige"
+    },
+    {
+        "GHProjectName": "yanus171/Handy-News-Reader",
+        "packageID": "ru.yanus171.feedexfork"
+    },
+    {
+        "GHProjectName": "bilde2910/Hauk",
+        "packageID": "info.varden.hauk"
+    },
+    {
+        "GHProjectName": "no-go/HaveRadiosion",
+        "packageID": "click.dummer.have_radiosion"
+    },
+    {
+        "GHProjectName": "heb12/heb12-mobile",
+        "packageID": "com.heb12.heb12"
+    },
+    {
+        "GHProjectName": "w32blaster/helsinki-timetables",
+        "packageID": "com.redblaster.hsl.main"
+    },
+    {
+        "GHProjectName": "Nonononoki/Hendroid",
+        "packageID": "org.nonononoki.hendroid"
+    },
+    {
+        "GHProjectName": "F4uzan/HgLauncher",
+        "packageID": "mono.hg"
+    },
+    {
+        "GHProjectName": "marcdonald/hibi",
+        "packageID": "com.marcdonald.hibi"
+    },
+    {
+        "GHProjectName": "Domi04151309/HomeApp",
+        "packageID": "io.github.domi04151309.home"
+    },
+    {
+        "GHProjectName": "s6joui/homebot",
+        "packageID": "com.abast.homebot"
+    },
+    {
+        "GHProjectName": "jeremymarch/HoplitePolytonicKeyboardAndroid",
+        "packageID": "com.philolog.hoplitekeyboard"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/HouseOfCards",
+        "packageID": "eu.veldsoft.house.of.cards"
+    },
+    {
+        "GHProjectName": "hu-berlin-cms/hu-eduroam",
+        "packageID": "de.hu_berlin.eduroam"
+    },
+    {
+        "GHProjectName": "ZiiS/huewidgets",
+        "packageID": "is.zi.huewidgets"
+    },
+    {
+        "GHProjectName": "Utazukin/Ichaival",
+        "packageID": "com.utazukin.ichaival"
+    },
+    {
+        "GHProjectName": "j05t/dbclf",
+        "packageID": "com.jstappdev.dbclf"
+    },
+    {
+        "GHProjectName": "swentel/indigenous-android",
+        "packageID": "com.indieweb.indigenous"
+    },
+    {
+        "GHProjectName": "Eun/InitialVolume",
+        "packageID": "eun.initialvolume"
+    },
+    {
+        "GHProjectName": "btimofeev/instead-launcher-android",
+        "packageID": "org.emunix.insteadlauncher"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-interval-timer",
+        "packageID": "org.secuso.privacyfriendlyintervaltimer"
+    },
+    {
+        "GHProjectName": "ivpn/android-app",
+        "packageID": "net.ivpn.client"
+    },
+    {
+        "GHProjectName": "nikita36078/J2ME-Loader",
+        "packageID": "ru.playsoftware.j2meloader"
+    },
+    {
+        "GHProjectName": "jitsi/jitsi-meet",
+        "packageID": "org.jitsi.meet"
+    },
+    {
+        "GHProjectName": "orhun/k3pler",
+        "packageID": "com.tht.k3pler"
+    },
+    {
+        "GHProjectName": "blastrock/kakugo",
+        "packageID": "org.kaqui"
+    },
+    {
+        "GHProjectName": "patrickkostjens/Kandroid",
+        "packageID": "nl.patrickkostjens.kandroid"
+    },
+    {
+        "GHProjectName": "adgad/kboard",
+        "packageID": "com.adgad.kboard"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/Kechi",
+        "packageID": "eu.veldsoft.kechi"
+    },
+    {
+        "GHProjectName": "sds100/KeyMapper",
+        "packageID": "io.github.sds100.keymapper"
+    },
+    {
+        "GHProjectName": "impalex/knockonports",
+        "packageID": "me.impa.knockonports"
+    },
+    {
+        "GHProjectName": "xbmc/xbmc",
+        "packageID": "org.xbmc.kodi"
+    },
+    {
+        "GHProjectName": "koreader/koreader",
+        "packageID": "org.koreader.launcher"
+    },
+    {
+        "GHProjectName": "alexcustos/linkasanote",
+        "packageID": "com.bytesforge.linkasanote"
+    },
+    {
+        "GHProjectName": "SubhamTyagi/Last-Launcher",
+        "packageID": "io.github.subhamtyagi.lastlauncher"
+    },
+    {
+        "GHProjectName": "ITVlab/Launch-On-Boot",
+        "packageID": "news.androidtv.launchonboot"
+    },
+    {
+        "GHProjectName": "LawnchairLauncher/Lawnchair-V1",
+        "packageID": "ch.deletescape.lawnchair.plah"
+    },
+    {
+        "GHProjectName": "luelista/LDAP-Sync",
+        "packageID": "de.wikilab.android.ldapsync"
+    },
+    {
+        "GHProjectName": "apcro/leafpicrevived",
+        "packageID": "com.alienpants.leafpicrevived"
+    },
+    {
+        "GHProjectName": "MBach/LeMondeRssReader",
+        "packageID": "org.mbach.lemonde"
+    },
+    {
+        "GHProjectName": "lesspass/lesspass",
+        "packageID": "com.lesspass.android"
+    },
+    {
+        "GHProjectName": "foobnix/LibreraReader",
+        "packageID": "com.foobnix.pro.pdf.reader"
+    },
+    {
+        "GHProjectName": "tryton-vanmeer/LibreTrivia",
+        "packageID": "io.github.trytonvanmeer.libretrivia"
+    },
+    {
+        "GHProjectName": "light-launcher/Light-Android-Launcher",
+        "packageID": "com.github.postapczuk.lalauncher"
+    },
+    {
+        "GHProjectName": "limboemu/limbo",
+        "packageID": "com.limbo.emu.main"
+    },
+    {
+        "GHProjectName": "LISTEN-moe/android-app",
+        "packageID": "me.echeung.moemoekyun.fdroid"
+    },
+    {
+        "GHProjectName": "k3b/LosslessJpgCrop",
+        "packageID": "de.k3b.android.lossless_jpg_crop"
+    },
+    {
+        "GHProjectName": "woffs/tazapp-android",
+        "packageID": "de.thecode.lmd"
+    },
+    {
+        "GHProjectName": "darshanparajuli/LogcatReader",
+        "packageID": "com.dp.logcatapp"
+    },
+    {
+        "GHProjectName": "lufte/lona",
+        "packageID": "io.github.lufte.lona"
+    },
+    {
+        "GHProjectName": "TheRedSpy15/LTECleanerFOSS",
+        "packageID": "theredspy15.ltecleanerfoss"
+    },
+    {
+        "GHProjectName": "inputmice/lttrs-android",
+        "packageID": "rs.ltt.android"
+    },
+    {
+        "GHProjectName": "mvbasov/lWS",
+        "packageID": "net.basov.lws.fdroid"
+    },
+    {
+        "GHProjectName": "mvbasov/lWS.QR",
+        "packageID": "net.basov.lws.qr.fdroid"
+    },
+    {
+        "GHProjectName": "SkyzohKey/M-Droid",
+        "packageID": "com.mdroid"
+    },
+    {
+        "GHProjectName": "subins2000/manglish",
+        "packageID": "subins2000.manglish"
+    },
+    {
+        "GHProjectName": "Stypox/mastercom-workbook",
+        "packageID": "com.stypox.mastercom_workbook"
+    },
+    {
+        "GHProjectName": "Matteljay/mastermindy-android",
+        "packageID": "eth.matteljay.mastermindy"
+    },
+    {
+        "GHProjectName": "zhanghai/MaterialFiles",
+        "packageID": "me.zhanghai.android.files"
+    },
+    {
+        "GHProjectName": "mattermost/mattermost-mobile",
+        "packageID": "com.mattermost.rnbeta"
+    },
+    {
+        "GHProjectName": "iAcn/MBEStyle",
+        "packageID": "me.iacn.mbestyle"
+    },
+    {
+        "GHProjectName": "JohnLines/mediclog",
+        "packageID": "org.paladyn.mediclog"
+    },
+    {
+        "GHProjectName": "sanskritbscs/memory",
+        "packageID": "com.sanskritbasics.memory"
+    },
+    {
+        "GHProjectName": "csicar/MensaPlan",
+        "packageID": "de.csicar.mensaplan"
+    },
+    {
+        "GHProjectName": "meshenger-app/meshenger-android",
+        "packageID": "d.d.meshenger"
+    },
+    {
+        "GHProjectName": "yuanyelele/mustuipd_metronome",
+        "packageID": "com.mustupid.metronome"
+    },
+    {
+        "GHProjectName": "thetwom/toc2",
+        "packageID": "de.moekadu.metronome"
+    },
+    {
+        "GHProjectName": "Anuken/Mindustry",
+        "packageID": "io.anuke.mindustry"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-minesweeper",
+        "packageID": "org.secuso.privacyfriendlyminesweeper"
+    },
+    {
+        "GHProjectName": "LiMium/mini-vector-android",
+        "packageID": "com.lavadip.miniVector"
+    },
+    {
+        "GHProjectName": "dfrits/MobilePauker2",
+        "packageID": "com.daniel.mobilepauker2"
+    },
+    {
+        "GHProjectName": "GittyMac/MoClock",
+        "packageID": "com.lako.moclock"
+    },
+    {
+        "GHProjectName": "moneymanagerex/android-money-manager-ex",
+        "packageID": "com.money.manager.ex"
+    },
+    {
+        "GHProjectName": "AndreAle94/moneywallet",
+        "packageID": "com.oriondev.moneywallet"
+    },
+    {
+        "GHProjectName": "freshollie/monkeyboard-radio-android",
+        "packageID": "com.freshollie.monkeyboard.keystoneradio"
+    },
+    {
+        "GHProjectName": "RichyHBM/Monochromatic",
+        "packageID": "uk.co.richyhbm.monochromatic"
+    },
+    {
+        "GHProjectName": "moonlight-stream/moonlight-android",
+        "packageID": "com.limelight"
+    },
+    {
+        "GHProjectName": "Crazy-Marvin/Morse",
+        "packageID": "rocks.poopjournal.morse"
+    },
+    {
+        "GHProjectName": "developerfromjokela/motioneye-client",
+        "packageID": "com.developerfromjokela.motioneyeclient"
+    },
+    {
+        "GHProjectName": "google/mozc",
+        "packageID": "org.mozc.android.inputmethod.japanese"
+    },
+    {
+        "GHProjectName": "MusicPlayerDaemon/MPD",
+        "packageID": "org.musicpd"
+    },
+    {
+        "GHProjectName": "bk138/multivnc",
+        "packageID": "com.coboltforge.dontmind.multivnc"
+    },
+    {
+        "GHProjectName": "MaxFour/Music-Player",
+        "packageID": "com.maxfour.music"
+    },
+    {
+        "GHProjectName": "enricocid/Music-Player-GO",
+        "packageID": "com.iven.musicplayergo"
+    },
+    {
+        "GHProjectName": "metabrainz/musicbrainz-android",
+        "packageID": "org.metabrainz.android"
+    },
+    {
+        "GHProjectName": "deep-gaurav/MusicPiped",
+        "packageID": "deep.ryd.rydplayer"
+    },
+    {
+        "GHProjectName": "Abdallah-Abdelazim/mynotes",
+        "packageID": "com.aa.mynotes"
+    },
+    {
+        "GHProjectName": "beckhamd/nasa-imagery-fetcher",
+        "packageID": "com.beckhamd.nasaimageryfetcher"
+    },
+    {
+        "GHProjectName": "NCBSinfo/NCBSinfo",
+        "packageID": "com.rohitsuratekar.NCBSinfo"
+    },
+    {
+        "GHProjectName": "Dar9586/NClientV2",
+        "packageID": "com.dar.nclientv2"
+    },
+    {
+        "GHProjectName": "stealthcopter/AndroidNetworkTools",
+        "packageID": "com.stealthcotper.networktools"
+    },
+    {
+        "GHProjectName": "fossasia/neurolab-android",
+        "packageID": "io.neurolab"
+    },
+    {
+        "GHProjectName": "TeamNewPipe/NewPipe-legacy",
+        "packageID": "org.schabi.newpipelegacy"
+    },
+    {
+        "GHProjectName": "agnelvishal/newsDiet",
+        "packageID": "press.condense.www"
+    },
+    {
+        "GHProjectName": "stefan-niedermann/nextcloud-deck",
+        "packageID": "it.niedermann.nextcloud.deck"
+    },
+    {
+        "GHProjectName": "nextcloud/talk-android",
+        "packageID": "com.nextcloud.talk2"
+    },
+    {
+        "GHProjectName": "daper/nextcloud-passwords-app",
+        "packageID": "com.nextcloudpasswords"
+    },
+    {
+        "GHProjectName": "h0chi/next-companion",
+        "packageID": "com.example.hochi.nextcompanion"
+    },
+    {
+        "GHProjectName": "SubhamTyagi/night-mode-tile",
+        "packageID": "io.github.subhamtyagi.nightmode"
+    },
+    {
+        "GHProjectName": "aeri/Nihonoari-App",
+        "packageID": "com.LAPARCELA.nihonoari"
+    },
+    {
+        "GHProjectName": "t184256/nix-on-droid",
+        "packageID": "com.termux.nix"
+    },
+    {
+        "GHProjectName": "CNugteren/NLWeer",
+        "packageID": "foss.cnugteren.nlweer"
+    },
+    {
+        "GHProjectName": "ashutoshgngwr/noice",
+        "packageID": "com.github.ashutoshgngwr.noice"
+    },
+    {
+        "GHProjectName": "Harvie/NorthDog",
+        "packageID": "cz.harvie.northdog"
+    },
+    {
+        "GHProjectName": "ajh3/NoSurfForReddit",
+        "packageID": "com.aaronhalbert.nosurfforreddit"
+    },
+    {
+        "GHProjectName": "farmerbb/Notepad",
+        "packageID": "com.farmerbb.notepad"
+    },
+    {
+        "GHProjectName": "billthefarmer/notes",
+        "packageID": "org.billthefarmer.notes"
+    },
+    {
+        "GHProjectName": "fi3te/NotificationCron",
+        "packageID": "com.github.fi3te.notificationcron"
+    },
+    {
+        "GHProjectName": "no-go/NotifyRelay",
+        "packageID": "click.dummer.notify_to_jabber"
+    },
+    {
+        "GHProjectName": "nova-video-player/aos-AVP",
+        "packageID": "org.courville.nova"
+    },
+    {
+        "GHProjectName": "xyzz/openmw-android",
+        "packageID": "is.xyz.omw"
+    },
+    {
+        "GHProjectName": "c4ffein/OOS-firmware-updater",
+        "packageID": "fr.witchdoctors.c4ffein.oosfirmwareextractor"
+    },
+    {
+        "GHProjectName": "subhamtyagi/openinwa",
+        "packageID": "io.github.subhamtyagi.openinwhatsapp"
+    },
+    {
+        "GHProjectName": "ogarcia/opensudoku",
+        "packageID": "org.moire.opensudoku"
+    },
+    {
+        "GHProjectName": "dslul/openboard",
+        "packageID": "org.dslul.openboard.inputmethod.latin"
+    },
+    {
+        "GHProjectName": "Willena/OpenDNSUpdater",
+        "packageID": "fr.guillaumevillena.opendnsupdater"
+    },
+    {
+        "GHProjectName": "hyst329/OpenFool",
+        "packageID": "ru.hyst329.openfool"
+    },
+    {
+        "GHProjectName": "openhab/openhab-android",
+        "packageID": "org.openhab.habdroid"
+    },
+    {
+        "GHProjectName": "OpenMW/android-port",
+        "packageID": "com.libopenmw.openmw"
+    },
+    {
+        "GHProjectName": "adolfintel/OpenPods",
+        "packageID": "com.dosse.airpods"
+    },
+    {
+        "GHProjectName": "LithiumSR/openstud_client",
+        "packageID": "com.lithium.leona.openstud"
+    },
+    {
+        "GHProjectName": "Pygmalion69/OpenTopoMapViewer",
+        "packageID": "org.nitri.opentopo"
+    },
+    {
+        "GHProjectName": "OpenTracksApp/OpenTracks",
+        "packageID": "de.dennisguse.opentracks"
+    },
+    {
+        "GHProjectName": "OpenTracksApp/OSMDashboard",
+        "packageID": "de.storchp.opentracks.osmplugin"
+    },
+    {
+        "GHProjectName": "Perflyst/OpenUntis",
+        "packageID": "de.perflyst.untis"
+    },
+    {
+        "GHProjectName": "Rudloff/openvegemap-cordova",
+        "packageID": "pro.rudloff.openvegemap"
+    },
+    {
+        "GHProjectName": "UnderSampled/opsu",
+        "packageID": "fluddokt.opsu.android"
+    },
+    {
+        "GHProjectName": "labexp/osmtracker-android",
+        "packageID": "net.osmtracker"
+    },
+    {
+        "GHProjectName": "oversecio/oversec",
+        "packageID": "io.oversec.one"
+    },
+    {
+        "GHProjectName": "nproth/pin",
+        "packageID": "de.nproth.pin"
+    },
+    {
+        "GHProjectName": "palmcalc2019/PalmCalc",
+        "packageID": "com.github.palmcalc2019.palmcalc"
+    },
+    {
+        "GHProjectName": "tacticalDevC/PanicTrigger",
+        "packageID": "at.tacticaldevc.panictrigger"
+    },
+    {
+        "GHProjectName": "corenting/ParisTransportTraffic",
+        "packageID": "fr.corenting.traficparis"
+    },
+    {
+        "GHProjectName": "HenriDellal/patolli",
+        "packageID": "ru.henridellal.patolli"
+    },
+    {
+        "GHProjectName": "JavaCafe01/PdfViewer",
+        "packageID": "com.gsnathan.pdfviewer"
+    },
+    {
+        "GHProjectName": "Swing-team/pendulums-web-client",
+        "packageID": "team.swing.pendulums"
+    },
+    {
+        "GHProjectName": "kabouzeid/Phonograph",
+        "packageID": "com.kabouzeid.gramophone"
+    },
+    {
+        "GHProjectName": "Staacks/phyphox-android",
+        "packageID": "de.rwth_aachen.phyphox"
+    },
+    {
+        "GHProjectName": "friimaind/pi-hole-droid",
+        "packageID": "friimaind.piholedroid"
+    },
+    {
+        "GHProjectName": "nicolasbrailo/PianOli",
+        "packageID": "com.nicobrailo.pianoli"
+    },
+    {
+        "GHProjectName": "pmiddend/piggybudget",
+        "packageID": "de.php_tech.piggybudget"
+    },
+    {
+        "GHProjectName": "blocklink-it/pigrid-companion-app",
+        "packageID": "de.blocklink.pigrid"
+    },
+    {
+        "GHProjectName": "kaputnikGo/PilferShushJammer",
+        "packageID": "cityfreqs.com.pilfershushjammer"
+    },
+    {
+        "GHProjectName": "yuanyelele/mustupid_pitch_pipe",
+        "packageID": "com.mustupid.pitch_pipe"
+    },
+    {
+        "GHProjectName": "Piwigo/Piwigo-Android",
+        "packageID": "org.piwigo.android"
+    },
+    {
+        "GHProjectName": "kriztan/Pix-Art-Messenger",
+        "packageID": "de.pixart.messenger"
+    },
+    {
+        "GHProjectName": "RodrigoDavy/PixelArtist",
+        "packageID": "rodrigodavy.com.github.pixelartist"
+    },
+    {
+        "GHProjectName": "agateau/pixelwheels",
+        "packageID": "com.agateau.tinywheels.android"
+    },
+    {
+        "GHProjectName": "yellowbluesky/PixivforMuzei3",
+        "packageID": "com.antony.muzei.pixiv"
+    },
+    {
+        "GHProjectName": "xxxcucus/planes",
+        "packageID": "com.planes.android"
+    },
+    {
+        "GHProjectName": "tengel/AndroidPlanisphere",
+        "packageID": "org.tengel.planisphere"
+    },
+    {
+        "GHProjectName": "vmiklos/plees-tracker",
+        "packageID": "hu.vmiklos.plees_tracker"
+    },
+    {
+        "GHProjectName": "Catrobat/Paintroid",
+        "packageID": "org.catrobat.paintroid"
+    },
+    {
+        "GHProjectName": "leoxshn/posidonLauncher",
+        "packageID": "posidon.launcher"
+    },
+    {
+        "GHProjectName": "alxgnon/PostWriter",
+        "packageID": "com.alxgnon.postwriter"
+    },
+    {
+        "GHProjectName": "Depau/POuLBITS-Android",
+        "packageID": "org.poul.bits.android"
+    },
+    {
+        "GHProjectName": "Domi04151309/Power-App-for-Android",
+        "packageID": "io.github.domi04151309.powerapp"
+    },
+    {
+        "GHProjectName": "rascarlo/PowerButtonTile",
+        "packageID": "com.rascarlo.power.button.tile"
+    },
+    {
+        "GHProjectName": "ostrya/PresencePublisher",
+        "packageID": "org.ostrya.presencepublisher"
+    },
+    {
+        "GHProjectName": "devgianlu/PretendYoureXyzzyAndroid",
+        "packageID": "com.gianlu.pretendyourexyzzy"
+    },
+    {
+        "GHProjectName": "pretix/pretixdroid",
+        "packageID": "eu.pretix.pretixdroid"
+    },
+    {
+        "GHProjectName": "pretix/pretixprint-android",
+        "packageID": "eu.pretix.pretixprint"
+    },
+    {
+        "GHProjectName": "pretix/pretixscan-android",
+        "packageID": "eu.pretix.pretixscan.droid"
+    },
+    {
+        "GHProjectName": "joshuawolfsohn/Private-DNS-Quick-Tile",
+        "packageID": "com.jpwolfso.privdnsqt"
+    },
+    {
+        "GHProjectName": "wesaphzt/privatelocation",
+        "packageID": "com.wesaphzt.privatelocation"
+    },
+    {
+        "GHProjectName": "wesaphzt/privatelock",
+        "packageID": "com.wesaphzt.privatelock"
+    },
+    {
+        "GHProjectName": "mattvchandler/progressbars",
+        "packageID": "org.mattvchandler.progressbars"
+    },
+    {
+        "GHProjectName": "ProtonVPN/android-app",
+        "packageID": "ch.protonvpn.android"
+    },
+    {
+        "GHProjectName": "fossasia/pslab-android",
+        "packageID": "io.pslab"
+    },
+    {
+        "GHProjectName": "guildem/publicip-android",
+        "packageID": "net.guildem.publicip"
+    },
+    {
+        "GHProjectName": "iNPUTmice/Conversations",
+        "packageID": "eu.siacs.conversations"
+    },
+    {
+        "GHProjectName": "RailwayStations/RSAndroidApp",
+        "packageID": "de.bahnhoefe.deutschlands.bahnhofsfotos"
+    },
+    {
+        "GHProjectName": "LinDevHard/raspb-finder",
+        "packageID": "com.lindevhard.android.raspfinder"
+    },
+    {
+        "GHProjectName": "aminecmi/ReaderforSelfoss",
+        "packageID": "apps.amine.bou.readerforselfoss"
+    },
+    {
+        "GHProjectName": "readrops/Readrops",
+        "packageID": "com.readrops.app"
+    },
+    {
+        "GHProjectName": "no-go/ReoTwe",
+        "packageID": "de.digisocken.reotwe"
+    },
+    {
+        "GHProjectName": "SamarthDesai01/RepeatMe",
+        "packageID": "com.samarthdesai.repeatme"
+    },
+    {
+        "GHProjectName": "OAndell/Riksdagskollen",
+        "packageID": "se.oandell.riksdagen"
+    },
+    {
+        "GHProjectName": "vector-im/riotx-android",
+        "packageID": "im.vector.riotx"
+    },
+    {
+        "GHProjectName": "RocketChat/Rocket.Chat.Android",
+        "packageID": "chat.rocket.android"
+    },
+    {
+        "GHProjectName": "amirzaidi/Launcher3",
+        "packageID": "amirz.rootless.nexuslauncher"
+    },
+    {
+        "GHProjectName": "jonasoreland/runnerup",
+        "packageID": "org.runnerup.free"
+    },
+    {
+        "GHProjectName": "jclehner/rxdroid",
+        "packageID": "at.jclehner.rxdroid"
+    },
+    {
+        "GHProjectName": "standardnotes/mobile",
+        "packageID": "com.standardnotes"
+    },
+    {
+        "GHProjectName": "x1unix/s60-icon-pack",
+        "packageID": "com.x1unix.s60icons"
+    },
+    {
+        "GHProjectName": "fair-exchange/safeprice",
+        "packageID": "org.safecoin.safeprice"
+    },
+    {
+        "GHProjectName": "Aefyr/SAI",
+        "packageID": "com.aefyr.sai.fdroid"
+    },
+    {
+        "GHProjectName": "libertysoft3/RedReader",
+        "packageID": "org.saiditnet.redreader"
+    },
+    {
+        "GHProjectName": "xvello/salasana-android",
+        "packageID": "net.xvello.salasana"
+    },
+    {
+        "GHProjectName": "LuK1337/SauceNAO",
+        "packageID": "com.luk.saucenao"
+    },
+    {
+        "GHProjectName": "Scraper-Club/Android-Scraper-Club",
+        "packageID": "com.scraperclub.android"
+    },
+    {
+        "GHProjectName": "beatbrot/ScreenshotAssistant",
+        "packageID": "de.beatbrot.screenshotassistant"
+    },
+    {
+        "GHProjectName": "cvzi/ScreenshotTile",
+        "packageID": "com.github.cvzi.screenshottile"
+    },
+    {
+        "GHProjectName": "dkrivoruchko/ScreenStream",
+        "packageID": "info.dvkr.screenstream"
+    },
+    {
+        "GHProjectName": "keeshii/screeps-client",
+        "packageID": "eu.ryuu.screeps"
+    },
+    {
+        "GHProjectName": "mathisdt/sdbviewer",
+        "packageID": "org.zephyrsoft.sdbviewer"
+    },
+    {
+        "GHProjectName": "bernaferrari/SDKMonitor",
+        "packageID": "com.bernaferrari.sdkmonitor"
+    },
+    {
+        "GHProjectName": "marcoM32/SeaMapDroid",
+        "packageID": "org.seamapdroid"
+    },
+    {
+        "GHProjectName": "farmerbb/SecondScreen",
+        "packageID": "com.farmerbb.secondscreen.free"
+    },
+    {
+        "GHProjectName": "Selfnet/selfnet-wificonfig",
+        "packageID": "de.selfnet.wifisetup"
+    },
+    {
+        "GHProjectName": "tckmn/semitone",
+        "packageID": "mn.tck.semitone"
+    },
+    {
+        "GHProjectName": "tobihille/SeniorLauncher",
+        "packageID": "de.nodomain.tobihille.seniorlauncher"
+    },
+    {
+        "GHProjectName": "jimmod/ShareToComputer",
+        "packageID": "com.jim.sharetocomputer"
+    },
+    {
+        "GHProjectName": "TheLastProject/ShareToInputStick",
+        "packageID": "me.hackerchick.sharetoinputstick"
+    },
+    {
+        "GHProjectName": "PeterCxy/Shelter",
+        "packageID": "net.typeblog.shelter"
+    },
+    {
+        "GHProjectName": "ShosetsuOrg/android-app",
+        "packageID": "com.github.doomsdayrs.apps.shosetsu"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Calendar",
+        "packageID": "com.simplemobiletools.calendar.pro"
+    },
+    {
+        "GHProjectName": "EmmanuelMess/Simple-Cleanup",
+        "packageID": "com.emmanuelmess.simplecleanup"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Contacts",
+        "packageID": "com.simplemobiletools.contacts.pro"
+    },
+    {
+        "GHProjectName": "raedahgroup/simple-decred-widget",
+        "packageID": "com.simpledecredwidget"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Draw",
+        "packageID": "com.simplemobiletools.draw.pro"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-File-Manager",
+        "packageID": "com.simplemobiletools.filemanager.pro"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Gallery",
+        "packageID": "com.simplemobiletools.gallery.pro"
+    },
+    {
+        "GHProjectName": "rkkr/simple-keyboard",
+        "packageID": "rkr.simplekeyboard.inputmethod"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Notes",
+        "packageID": "com.simplemobiletools.notes.pro"
+    },
+    {
+        "GHProjectName": "toxtox/SimplePhilosopherstoneWidget",
+        "packageID": "com.toxtox.philosopherstonewidget"
+    },
+    {
+        "GHProjectName": "MarcoSpoerl/simply-pace",
+        "packageID": "com.marcospoerl.simplypace"
+    },
+    {
+        "GHProjectName": "adolfintel/sine-android",
+        "packageID": "com.dosse.bwentrain.androidPlayer"
+    },
+    {
+        "GHProjectName": "namlit/siteswap_generator",
+        "packageID": "namlit.siteswapgenerator"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-sketching",
+        "packageID": "org.secuso.privacyfriendlysketching"
+    },
+    {
+        "GHProjectName": "DevLuuk/SleepyWifi",
+        "packageID": "nl.devluuk.sleepywifi"
+    },
+    {
+        "GHProjectName": "sduduzog/slim-launcher",
+        "packageID": "com.sduduzog.slimlauncher"
+    },
+    {
+        "GHProjectName": "CookieJarApps/SmartCookieWeb",
+        "packageID": "com.cookiegames.smartcookie"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-SMS-Messenger",
+        "packageID": "com.simplemobiletools.smsmessenger"
+    },
+    {
+        "GHProjectName": "tijder/SmsMatrix",
+        "packageID": "eu.droogers.smsmatrix"
+    },
+    {
+        "GHProjectName": "igrmk/smsq",
+        "packageID": "com.github.igrmk.smsq"
+    },
+    {
+        "GHProjectName": "snikket-im/snikket-android",
+        "packageID": "org.snikket.android"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-solitaire",
+        "packageID": "org.secuso.privacyfriendlysolitaire"
+    },
+    {
+        "GHProjectName": "39aldo39/spaRSS-DecSync",
+        "packageID": "org.decsync.sparss.floss"
+    },
+    {
+        "GHProjectName": "librespeed/speedtest-android",
+        "packageID": "com.dosse.speedtest"
+    },
+    {
+        "GHProjectName": "nickdurante/Spider",
+        "packageID": "org.kknickkk.spider"
+    },
+    {
+        "GHProjectName": "nishant-boro/split-it-easy-android",
+        "packageID": "com.nishantboro.splititeasy"
+    },
+    {
+        "GHProjectName": "kalaspuffar/secure-quick-reliable-login",
+        "packageID": "org.ea.sqrl"
+    },
+    {
+        "GHProjectName": "xgouchet/Stanley",
+        "packageID": "fr.xgouchet.packageexplorer"
+    },
+    {
+        "GHProjectName": "ChickenHook/StartFlagExploit",
+        "packageID": "org.chickenhook.startflagexploit"
+    },
+    {
+        "GHProjectName": "fennifith/Status",
+        "packageID": "com.james.status"
+    },
+    {
+        "GHProjectName": "zikalify/StoicReading",
+        "packageID": "app.reading.stoic.stoicreading"
+    },
+    {
+        "GHProjectName": "fei0316/snapstreak-alarm",
+        "packageID": "com.iatfei.streakalarm"
+    },
+    {
+        "GHProjectName": "HappyPeng2x/SumatoraDictionary",
+        "packageID": "org.happypeng.sumatora.android.sumatoradictionary"
+    },
+    {
+        "GHProjectName": "forrestguice/SuntimesCalendars",
+        "packageID": "com.forrestguice.suntimescalendars"
+    },
+    {
+        "GHProjectName": "supertuxkart/stk-code",
+        "packageID": "org.supertuxkart.stk"
+    },
+    {
+        "GHProjectName": "fossasia/susi_android",
+        "packageID": "ai.susi"
+    },
+    {
+        "GHProjectName": "RHazDev/Sweet-IPFS",
+        "packageID": "fr.rhaz.ipfs.sweet"
+    },
+    {
+        "GHProjectName": "muojp/sync-memories",
+        "packageID": "jp.muo.syncmemories"
+    },
+    {
+        "GHProjectName": "syncthing/syncthing-lite",
+        "packageID": "net.syncthing.lite"
+    },
+    {
+        "GHProjectName": "Catfriend1/syncthing-android-fdroid",
+        "packageID": "com.github.catfriend1.syncthingandroid"
+    },
+    {
+        "GHProjectName": "rsteube/t4-launcher",
+        "packageID": "com.github.rsteube.t4"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-tape-measure",
+        "packageID": "org.secuso.privacyfriendlytapemeasure"
+    },
+    {
+        "GHProjectName": "andswitch/techahashi",
+        "packageID": "negativedensity.techahashi"
+    },
+    {
+        "GHProjectName": "ATryder/TEdit",
+        "packageID": "com.atr.tedit"
+    },
+    {
+        "GHProjectName": "xavierfreyburger/tempus-romanum",
+        "packageID": "com.dev.xavier.tempusromanum"
+    },
+    {
+        "GHProjectName": "cotechde/termbot",
+        "packageID": "org.sufficientlysecure.termbot"
+    },
+    {
+        "GHProjectName": "DimensionDev/Tessercube-Android",
+        "packageID": "com.dimension.tessercube"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Thank-You",
+        "packageID": "com.simplemobiletools.thankyou"
+    },
+    {
+        "GHProjectName": "sschueller/peertube-android",
+        "packageID": "net.schueller.peertube"
+    },
+    {
+        "GHProjectName": "fabmazz/Timber",
+        "packageID": "it.fossoft.timberfoss"
+    },
+    {
+        "GHProjectName": "asdoi/TimeTable",
+        "packageID": "com.asdoi.timetable"
+    },
+    {
+        "GHProjectName": "sorz/TinyKeePass",
+        "packageID": "org.sorz.lab.tinykeepass"
+    },
+    {
+        "GHProjectName": "joaomneto/TitanCompanion",
+        "packageID": "pt.joaomneto.titancompanion"
+    },
+    {
+        "GHProjectName": "Webierta/ToDoList",
+        "packageID": "com.android.todolist"
+    },
+    {
+        "GHProjectName": "andstatus/todoagenda",
+        "packageID": "org.andstatus.todoagenda"
+    },
+    {
+        "GHProjectName": "sluedecke/tonality",
+        "packageID": "net.currit.tonality"
+    },
+    {
+        "GHProjectName": "marc136/tonuino-nfc-tools",
+        "packageID": "de.mw136.tonuino"
+    },
+    {
+        "GHProjectName": "zamojski/TowerCollector",
+        "packageID": "info.zamojski.soft.towercollector"
+    },
+    {
+        "GHProjectName": "Dariasteam/TowerJumper",
+        "packageID": "org.pipoypipagames.towerjumper"
+    },
+    {
+        "GHProjectName": "SamAmco/track-and-graph",
+        "packageID": "com.samco.trackandgraph"
+    },
+    {
+        "GHProjectName": "OxfordHCC/tracker-control-android",
+        "packageID": "net.kollnig.missioncontrol.fdroid"
+    },
+    {
+        "GHProjectName": "kylecorry31/Trail-Sense",
+        "packageID": "com.kylecorry.trail_sense"
+    },
+    {
+        "GHProjectName": "PeredurOmega/FrenchTravelCertificate",
+        "packageID": "com.pi.attestation"
+    },
+    {
+        "GHProjectName": "project-travel-mate/Travel-Mate",
+        "packageID": "io.github.project_travel_mate"
+    },
+    {
+        "GHProjectName": "andreynovikov/trekarta",
+        "packageID": "mobi.maptrek"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/TriPeaksSolitaireForAndroid",
+        "packageID": "eu.veldsoft.tri.peaks"
+    },
+    {
+        "GHProjectName": "mwarning/trigger",
+        "packageID": "com.example.trigger"
+    },
+    {
+        "GHProjectName": "osfans/trime",
+        "packageID": "com.osfans.trime"
+    },
+    {
+        "GHProjectName": "teal77/trireme",
+        "packageID": "org.deluge.trireme"
+    },
+    {
+        "GHProjectName": "Danesprite/tts-util-app",
+        "packageID": "com.danefinlay.ttsutil"
+    },
+    {
+        "GHProjectName": "turtl/fdroid",
+        "packageID": "com.lyonbros.turtl"
+    },
+    {
+        "GHProjectName": "tutao/tutanota",
+        "packageID": "de.tutao.tutanota"
+    },
+    {
+        "GHProjectName": "Perflyst/Twire",
+        "packageID": "com.perflyst.twire"
+    },
+    {
+        "GHProjectName": "moko256/twitlatte",
+        "packageID": "com.github.moko256.twitlatte"
+    },
+    {
+        "GHProjectName": "rgex/UBIC-android-wallet",
+        "packageID": "network.ubic.ubic"
+    },
+    {
+        "GHProjectName": "yairm210/UnCiv",
+        "packageID": "com.unciv.app"
+    },
+    {
+        "GHProjectName": "Ryosuke839/UnicodePad",
+        "packageID": "jp.ddo.hotmist.unicodepad"
+    },
+    {
+        "GHProjectName": "Rudloff/lineageos-updater-shortcut",
+        "packageID": "pro.rudloff.lineageos_updater_shortcut"
+    },
+    {
+        "GHProjectName": "2Ra66it/updater-for-spotify",
+        "packageID": "ru.ra66it.updaterforspotify"
+    },
+    {
+        "GHProjectName": "freshollie/UsbGps4Droid",
+        "packageID": "org.broeuschmeul.android.gps.usb.provider"
+    },
+    {
+        "GHProjectName": "eriknellessen/user-controlled-decryption-operations",
+        "packageID": "de.nellessen.usercontrolleddecryptionoperations"
+    },
+    {
+        "GHProjectName": "CypherpunkArmory/UserLAnd",
+        "packageID": "tech.ula"
+    },
+    {
+        "GHProjectName": "shadowsocks/v2ray-plugin-android",
+        "packageID": "com.github.shadowsocks.plugin.v2ray"
+    },
+    {
+        "GHProjectName": "vanilla-music/vanilla-music-metadata-fetch",
+        "packageID": "com.kanedias.vanilla.metadata"
+    },
+    {
+        "GHProjectName": "vcmi/vcmi-android",
+        "packageID": "is.xyz.vcmi"
+    },
+    {
+        "GHProjectName": "dozingcat/VectorCamera",
+        "packageID": "com.dozingcatsoftware.vectorcamera"
+    },
+    {
+        "GHProjectName": "enricocid/VectorifyDaHome",
+        "packageID": "com.iven.iconify"
+    },
+    {
+        "GHProjectName": "brarcher/video-transcoder",
+        "packageID": "protect.videoeditor"
+    },
+    {
+        "GHProjectName": "AdrienPoupa/VinylMusicPlayer",
+        "packageID": "com.poupa.vinylmusicplayer"
+    },
+    {
+        "GHProjectName": "DaxiaK/VirtualSoftKeys",
+        "packageID": "tw.com.daxia.virtualsoftkeys"
+    },
+    {
+        "GHProjectName": "android-hacker/VirtualXposed",
+        "packageID": "io.va.exposed"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/vitosha-blackjack",
+        "packageID": "eu.veldsoft.vitosha.blackjack"
+    },
+    {
+        "GHProjectName": "VelbazhdSoftwareLLC/android-vitosha-poker-odds",
+        "packageID": "eu.veldsoft.vitosha.poker.odds"
+    },
+    {
+        "GHProjectName": "nicolasbrailo/VlcFreemote",
+        "packageID": "com.nicolasbrailo.vlcfreemote"
+    },
+    {
+        "GHProjectName": "SimpleMobileTools/Simple-Voice-Recorder",
+        "packageID": "com.simplemobiletools.voicerecorder"
+    },
+    {
+        "GHProjectName": "punksta/volume_control_android",
+        "packageID": "com.punksta.apps.volumecontrol"
+    },
+    {
+        "GHProjectName": "Mygod/VPNHotspot",
+        "packageID": "be.mygod.vpnhotspot"
+    },
+    {
+        "GHProjectName": "vadret/android",
+        "packageID": "fi.kroon.vadret"
+    },
+    {
+        "GHProjectName": "davidhealey/waistline",
+        "packageID": "com.waist.line"
+    },
+    {
+        "GHProjectName": "warmshowers/wsandroid",
+        "packageID": "fi.bitrite.android.ws"
+    },
+    {
+        "GHProjectName": "dh4/WeatherRadar",
+        "packageID": "com.danhasting.radar"
+    },
+    {
+        "GHProjectName": "sanderbaas/WeatherWidget",
+        "packageID": "nl.implode.weer"
+    },
+    {
+        "GHProjectName": "freaktechnik/Webthingify",
+        "packageID": "be.humanoids.webthingify"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-werewolf",
+        "packageID": "org.secuso.privacyfriendlycardgameone"
+    },
+    {
+        "GHProjectName": "DoubleGremlin181/WhatsApp-Twitch-Stickers",
+        "packageID": "me.kavishhukmani.watwitchstickers"
+    },
+    {
+        "GHProjectName": "92lleo/WhatsappWebToGo",
+        "packageID": "io.kuenzler.whatsappwebtogo"
+    },
+    {
+        "GHProjectName": "4nubhav/WhatsDeleted",
+        "packageID": "com.gmail.anubhavdas54.whatsdeleted"
+    },
+    {
+        "GHProjectName": "SecUSo/privacy-friendly-wifi-manager",
+        "packageID": "org.secuso.privacyfriendlywifimanager"
+    },
+    {
+        "GHProjectName": "hacker1024/android-wifi-qr-code-generator",
+        "packageID": "tk.superl2.xwifi"
+    },
+    {
+        "GHProjectName": "csmarosi/wifiAutOff",
+        "packageID": "com.csmarosi.wifiautoff"
+    },
+    {
+        "GHProjectName": "Rudloff/muzei-commons",
+        "packageID": "pro.rudloff.muzei.commons"
+    },
+    {
+        "GHProjectName": "williehwc/wonderdroid-x",
+        "packageID": "com.atelieryl.wonderdroid"
+    },
+    {
+        "GHProjectName": "WooKeyWallet/wookey-wallet-android-app",
+        "packageID": "io.wookey.wallet"
+    },
+    {
+        "GHProjectName": "spidgorny/workingtimealert",
+        "packageID": "com.androidfromfrankfurt.workingtimealert"
+    },
+    {
+        "GHProjectName": "MarquisLP/World-Scribe",
+        "packageID": "com.averi.worldscribe"
+    },
+    {
+        "GHProjectName": "wownero/wownerujo",
+        "packageID": "com.wownero.wownerujo"
+    },
+    {
+        "GHProjectName": "wulkanowy/wulkanowy",
+        "packageID": "io.github.wulkanowy"
+    },
+    {
+        "GHProjectName": "redsolution/xabber-android",
+        "packageID": "com.xabber.android"
+    },
+    {
+        "GHProjectName": "anton-arnold/xoverrideheadphonejackdetection",
+        "packageID": "de.antonarnold.android.xoverrideheadphonejackdetection"
+    },
+    {
+        "GHProjectName": "M66B/XPrivacyLua",
+        "packageID": "eu.faircode.xlua"
+    },
+    {
+        "GHProjectName": "yacgroup/yacguide",
+        "packageID": "com.yacgroup.yacguide.dev"
+    },
+    {
+        "GHProjectName": "kiliakin/YalpStore",
+        "packageID": "com.github.kiliakin.yalpstore"
+    },
+    {
+        "GHProjectName": "sadr0b0t/yashlang",
+        "packageID": "su.sadrobot.yashlang"
+    },
+    {
+        "GHProjectName": "no-go/YiddishKeyboard",
+        "packageID": "click.dummer.yidkey"
+    },
+    {
+        "GHProjectName": "pp3345/ykDroid",
+        "packageID": "net.pp3345.ykdroid"
+    },
+    {
+        "GHProjectName": "thuryn/your-local-weather",
+        "packageID": "org.thosp.yourlocalweather"
+    },
+    {
+        "GHProjectName": "mohamedbelhassen/YoutubeListingApp",
+        "packageID": "tn.creativeteam.newyoutubelistingapp"
+    },
+    {
+        "GHProjectName": "thiolliere/YouTubeStream",
+        "packageID": "org.thiolliere.youtubestream"
+    },
+    {
+        "GHProjectName": "juankysoriano/Zen",
+        "packageID": "zen.meditation.android"
+    },
+    {
+        "GHProjectName": "ZeusLN/zeus",
+        "packageID": "com.zeusln.zeus"
+    },
+    {
+        "GHProjectName": "otakuhqz/ZimLX",
+        "packageID": "org.zimmob.zimlx"
+    },
+    {
+        "GHProjectName": "ZorinOS/zorin-connect-android",
+        "packageID": "com.zorinos.zorin_connect"
+    },
+    {
+        "GHProjectName": "osmontrouge/caresteouvert_android",
+        "packageID": "com.transway.caresteouvert"
+    },
+    {
+        "GHProjectName": "ymakei/vegetarian_journal",
+        "packageID": "ymakei.vegetarian_journal"
+    }
+]

@@ -20,8 +20,6 @@ Webierta/ahorcandroid
 fennifith/Alarmio
 Domi04151309/AlwaysOn
 fr3ts0n/AndrOBD-Plugin
-fr3ts0n/AndrOBD-Plugin
-fr3ts0n/AndrOBD-Plugin
 gryphius/androdns
 google/samba-documents-provider
 jkennethcarino/AnkiEditor
@@ -45,12 +43,11 @@ authpass/authpass
 fossasia/badge-magic-android
 UriahShaulMandel/BaldPhone
 juha-h/baresip-studio
-juha-h/baresip-studio
 sarbajitsaha/Batch-Uninstaller
 phrogg/BatteryCalibrator
 vitSkalicky/lepsi-rozvrh
 SapuSeven/BetterUntis
-niccokunzmann/bhagavad-gita-android/
+niccokunzmann/bhagavad-gita-android
 markusfisch/BinaryEye
 WebBluetoothCG/ble-test-peripheral-android
 wuan/bo-android
@@ -95,9 +92,9 @@ GabrielTavernini/Covid19Stats
 kamgurgul/cpu-info
 bitcraze/crazyflie-android-client
 samotari/crypto-terminal
-CTemplar/android/tree/fdroid
+CTemplar/android
 wownero/cyberwow
-vitSkalicky/klavesnice/
+vitSkalicky/klavesnice
 nutritionfactsorg/daily-dozen-android
 flex3r/DankChat
 SpiritCroc/DarkCroc-Android-theme
@@ -154,7 +151,7 @@ emansih/FireflyMobile
 cubei/flashcards
 sterrenburg/flutterhole
 FredJul/Flym
-flyve-mdm/android-mdm-agent/
+flyve-mdm/android-mdm-agent
 SecUSo/privacy-friendly-food-tracker
 Rohithkvsp/Form-N-Fun
 jfilter/frag-den-staat-app
@@ -176,7 +173,6 @@ goodtime-productivity/Goodtime
 gotify/android
 tiagoshibata/Android-GPSd-Client
 barbeau/gpstest
-Groestlcoin/groestlcoin-wallet
 Groestlcoin/groestlcoin-wallet
 7LPdWcaW/GrowTracker-Android
 vbier/habpanelviewer
@@ -200,7 +196,7 @@ Utazukin/Ichaival
 j05t/dbclf
 swentel/indigenous-android
 Eun/InitialVolume
-btimofeev/instead-launcher-android/
+btimofeev/instead-launcher-android
 SecUSo/privacy-friendly-interval-timer
 ivpn/android-app
 nikita36078/J2ME-Loader
@@ -261,11 +257,11 @@ moonlight-stream/moonlight-android
 Crazy-Marvin/Morse
 developerfromjokela/motioneye-client
 google/mozc
-MusicPlayerDaemon/MPD/
+MusicPlayerDaemon/MPD
 bk138/multivnc
 MaxFour/Music-Player
 enricocid/Music-Player-GO
-metabrainz/musicbrainz-android/
+metabrainz/musicbrainz-android
 deep-gaurav/MusicPiped
 Abdallah-Abdelazim/mynotes
 beckhamd/nasa-imagery-fetcher
@@ -292,7 +288,6 @@ fi3te/NotificationCron
 no-go/NotifyRelay
 nova-video-player/aos-AVP
 xyzz/openmw-android
-xyzz/openmw-android
 c4ffein/OOS-firmware-updater
 subhamtyagi/openinwa
 ogarcia/opensudoku
@@ -300,14 +295,13 @@ dslul/openboard
 Willena/OpenDNSUpdater
 hyst329/OpenFool
 openhab/openhab-android
-openhab/openhab-android
 OpenMW/android-port
 adolfintel/OpenPods
 LithiumSR/openstud_client
 Pygmalion69/OpenTopoMapViewer
 OpenTracksApp/OpenTracks
 OpenTracksApp/OSMDashboard
-Perflyst/OpenUntis/
+Perflyst/OpenUntis
 Rudloff/openvegemap-cordova
 UnderSampled/opsu
 labexp/osmtracker-android
@@ -316,7 +310,7 @@ nproth/pin
 palmcalc2019/PalmCalc
 tacticalDevC/PanicTrigger
 corenting/ParisTransportTraffic
-https://www.github.com/HenriDellal/patolli
+HenriDellal/patolli
 JavaCafe01/PdfViewer
 Swing-team/pendulums-web-client
 kabouzeid/Phonograph
@@ -431,7 +425,6 @@ syncthing/syncthing-lite
 Catfriend1/syncthing-android-fdroid
 rsteube/t4-launcher
 SecUSo/privacy-friendly-tape-measure
-woffs/tazapp-android
 andswitch/techahashi
 ATryder/TEdit
 xavierfreyburger/tempus-romanum
@@ -449,7 +442,6 @@ sluedecke/tonality
 marc136/tonuino-nfc-tools
 zamojski/TowerCollector
 Dariasteam/TowerJumper
-zoff99/CampFahrplan
 SamAmco/track-and-graph
 OxfordHCC/tracker-control-android
 kylecorry31/Trail-Sense
@@ -506,7 +498,7 @@ williehwc/wonderdroid-x
 WooKeyWallet/wookey-wallet-android-app
 spidgorny/workingtimealert
 MarquisLP/World-Scribe
-wownero/wownerujo/
+wownero/wownerujo
 wulkanowy/wulkanowy
 redsolution/xabber-android
 anton-arnold/xoverrideheadphonejackdetection
