@@ -6693,6 +6693,7 @@
     },
     {
         "GHProjectName": "gotify/android",
+        "altName": "android-gotify",
         "packageID": "com.github.gotify",
         "gplayData": {
             "title": "Gotify",
@@ -18372,62 +18373,6 @@
             "editorsChoice": false,
             "appId": "be.mygod.vpnhotspot",
             "url": "https://play.google.com/store/apps/details?id=be.mygod.vpnhotspot&hl=en&gl=us"
-        }
-    },
-    {
-        "GHProjectName": "vadret/android",
-        "packageID": "fi.kroon.vadret",
-        "gplayData": {
-            "title": "Vädret",
-            "description": "En väderapp för Sverige byggd på öppen källkod och öppna data från SMHI. \r\n\r\nFunktioner:\r\n- Plats via GPS\r\n- Plats via sökning genom namn\r\n- Nuvarande utfärdade varningar\r\n- Radarbilder\r\n- 10 dagars prognos",
-            "descriptionHTML": "En väderapp för Sverige byggd på öppen källkod och öppna data från SMHI. <br><br>Funktioner:<br>- Plats via GPS<br>- Plats via sökning genom namn<br>- Nuvarande utfärdade varningar<br>- Radarbilder<br>- 10 dagars prognos",
-            "summary": "An open weather app with open data for Sweden",
-            "installs": "100+",
-            "minInstalls": 100,
-            "maxInstalls": 100,
-            "score": 0,
-            "scoreText": "0.0",
-            "ratings": 0,
-            "reviews": 0,
-            "histogram": {
-                "1": 0,
-                "2": 0,
-                "3": 0,
-                "4": 0,
-                "5": 0
-            },
-            "price": 0,
-            "free": true,
-            "currency": "USD",
-            "priceText": "Free",
-            "offersIAP": false,
-            "size": "4.1M",
-            "androidVersion": "5.0",
-            "androidVersionText": "5.0 and up",
-            "developer": "Niclas Kron",
-            "developerId": "Niclas+Kron",
-            "developerEmail": "niclas.kroon@gmail.com",
-            "developerWebsite": "https://github.com/vadret/android",
-            "privacyPolicy": "https://vadret.github.io/android/privacy/",
-            "developerInternalID": "7926288595584949548",
-            "genre": "Weather",
-            "genreId": "WEATHER",
-            "icon": "https://lh3.googleusercontent.com/_mCHis2gudoLre3TPSXT0bqwtzG4clCyCMKAeFnoR0XugfzzN9w6WJEWG55x3x02U1k",
-            "headerImage": "https://lh3.googleusercontent.com/VJMZRsVgn9_szOjZEGc8EgK-Y4xbOXIauhgnOySTuDL1YGEe7I1p4cLAkMsDgLfGUME",
-            "screenshots": [
-                "https://lh3.googleusercontent.com/v0iXXDfurLTaOtCmJC2wp8Hkdxo2yzjZ86kw9aVPeOOFh7qV247rbeL3owsGXBrP4Qc",
-                "https://lh3.googleusercontent.com/SOaPP_cSO3BCcJ1NN9wa5elclux91o2C6dsYZcGBlngWKaiYzIJqEsKBRECAdLs2TA",
-                "https://lh3.googleusercontent.com/ZPC8SwjyZ7SE5F7WLD_HajhqQ1H03srBjIoC9TjsdDUQpVENiuszm_C5uIKkjdq5qM2_",
-                "https://lh3.googleusercontent.com/vfULVsg0D81EeAo65R43JMK9H-lahxXfuAmuEBmrJg06LEq0Tpr-fbLT37K87kifyg"
-            ],
-            "contentRating": "Everyone",
-            "adSupported": false,
-            "updated": 1588973193000,
-            "version": "1.2.8",
-            "comments": [],
-            "editorsChoice": false,
-            "appId": "fi.kroon.vadret",
-            "url": "https://play.google.com/store/apps/details?id=fi.kroon.vadret&hl=en&gl=us"
         }
     },
     {

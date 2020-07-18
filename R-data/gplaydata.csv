@@ -1,0 +1,116 @@
+app,score,genre,installs,androidVersion
+10000sentences,4.32,Education,35037,4.4
+ActivityDiary,3.8888888,Productivity,1766,5.0
+Aegis,4.74,Tools,32682,5.0
+AnLinux-Adfree,3.9849625,Tools,453101,5.0
+Android-GPSd-Client,0,Tools,1025,4.4
+AndroidNetworkTools,4.285714,Tools,4177,4.0
+AndroidPlanisphere,0,Education,2,4.0.3
+AppLock,4,Tools,4410,4.0.3
+ArchPackages,4.827586,Productivity,4929,4.1
+Authorizer,0,Tools,827,5.0
+Calliope-Android-App,2.8235295,Education,3381,4.3
+ContentBlocker,4.420058,Tools,6782168,5.0
+DSAAssistant,4.3636365,Entertainment,2748,4.0.3
+DarkCroc-Android-theme,4.25,Personalization,18377,VARY
+DefaultDarkTheme-oms,2.7142856,Personalization,369985,7.0
+Diaguard,4.48,Medical,20572,4.1
+DokuwikiAndroid,3.4285715,Tools,940,4.0.3
+FediPhoto,0,Social,8,8.0
+GetMiTokens,0,Tools,143,4.0.3
+Getoffyourphone,4.142857,Productivity,2756,5.0
+Goodtime,4.560232,Productivity,511233,4.1
+Hauk,5,Maps & Navigation,183,6.0
+LDAP-Sync,3.3333333,Tools,2531,3.0
+LTECleanerFOSS,4.56,Tools,24651,5.0
+Light-Android-Launcher,0,Personalization,31,1.6
+MBEStyle,4.1764708,Personalization,3323,4.2
+Morse,4.2,Communication,161,4.4
+Notepad,4.385621,Productivity,325269,4.0
+OSMDashboard,0,Health & Fitness,68,5.0
+OpenDNSUpdater,3.3095238,Tools,18422,4.1
+OpenPods,1.5714285,Tools,3154,6.0
+Paintroid,3.664762,Tools,999283,4.2
+PdfViewer,4.4,Tools,18555,5.0
+Phonograph,4.06722,Music & Audio,1944285,4.1
+PilferShushJammer,4.15,Tools,37312,4.3
+Piwigo-Android,2.8510637,Photography,8053,4.1
+PresencePublisher,0,House & Home,35,4.0
+RSAndroidApp,4.909091,Travel & Local,297,5.0
+RedReader,3.463768,Social,10104,4.0
+SecondScreen,3.8321168,Tools,941570,4.2
+Shelter,3.82,Tools,34338,7.0
+SleepyWifi,4.25,Tools,497,8.0
+SumatoraDictionary,0,Education,16,4.0
+TEdit,3.25,Productivity,1273,4.0
+TowerCollector,4.29,Tools,54673,VARY
+UnicodePad,4.3860626,Tools,8005903,VARY
+WeatherRadar,3.2666667,Weather,3687,4.1
+World-Scribe,4.15,Productivity,70894,VARY
+YalpStore,0,Tools,281,2.0
+aelf-dailyreadings,4.6431093,Lifestyle,431789,4.1
+androdns,4.4363637,Tools,17904,4.0.3
+android-gotify,4.6896553,Tools,3317,4.4
+atalk-android,3.7777777,Communication,5097,5.0
+c-beam-droid,4.875,Personalization,1215,5.0
+calculator-notification,4.3055553,Tools,1700,4.1
+dash-wallet,4,Finance,352399,4.4
+democracy-client,4.3846154,Education,84866,4.1
+diceware-pass-gen,4.8636365,Tools,2429,4.0.3
+disaster-radio-android,0,Communication,133,4.4
+download-navi,3.93,Tools,66500,4.4
+essential-launcher,3.83,Personalization,26693,4.2
+exodus-android-app,4.29,Tools,88362,4.2
+flashcards,0,Education,74,5.0
+funktrainer,4.5636363,Education,7039,4.0
+habpanelviewer,3.707317,Lifestyle,8266,4.4
+hacs,0,Tools,154,5.0
+heb12-mobile,0,Lifestyle,21,4.0.3
+helsinki-timetables,3.19,Travel & Local,66962,VARY
+hu-eduroam,4.1609197,Tools,30078,4.3
+huewidgets,0,House & Home,346,5.0
+kboard,3.6306307,Personalization,253131,4.4
+lepsi-rozvrh,4.773585,Education,1533,4.4
+lttrs-android,4.5,Communication,203,6.0
+manglish,4.388889,Tools,27984,4.0.3
+mediclog,0,Health & Fitness,2,4.0
+moneywallet,4.49,Finance,16229,5.0
+motioneye-client,0,Tools,2070,VARY
+mundraub-android,1.3225807,Travel & Local,2988,4.0
+mynotes,0,Productivity,220,4.2
+onpc,4.39,Music & Audio,26567,4.0
+opensudoku,4.63,Puzzle,9642,4.0
+osmtracker-android,4.17,Travel & Local,29966,4.1
+phyphox-android,4.466292,Education,854646,4.0
+pin,0,Tools,9,4.1
+planes,0,Board,12262,4.1
+privacy-friendly-2048,4.714286,Puzzle,641,5.0
+privacy-friendly-boardgame-clock,0,Board,307,5.0
+privacy-friendly-circuit-training-exercises,3.6666667,Health & Fitness,1890,5.0
+privacy-friendly-dame,3.6666667,Board,475,5.0
+privacy-friendly-finance-manager,4.428571,Finance,668,5.0
+privacy-friendly-food-tracker,2.5,Food & Drink,293,5.0
+privacy-friendly-interval-timer,4.076923,Health & Fitness,2518,5.0
+privacy-friendly-minesweeper,4.4666667,Puzzle,903,5.0
+privacy-friendly-wifi-manager,3,Tools,2390,4.1
+pslab-android,4.73,Education,2343,6.0
+quickref,4.58,Productivity,41574,4.1
+rxdroid,4.48,Health & Fitness,14195,4.0
+safeprice,0,Finance,24,4.0
+sdbviewer,0,Tools,631,4.1
+secure-quick-reliable-login,4.7647057,Communication,3872,4.1
+selfnet-wificonfig,0,Productivity,1497,6.0
+simple-keyboard,4.388889,Tools,363873,4.4
+simply-pace,4.7777777,Sports,1435,4.4
+sine-android,4.46,Health & Fitness,27710,4.0.3
+siteswap_generator,4.3333335,Sports,693,4.0.3
+syncthing-android-fdroid,4.47,Productivity,10800,4.1
+termbot,4.1549296,Tools,6576,4.0
+todoagenda,4.49,Productivity,23470,7.0
+trekarta,4.31,Maps & Navigation,1906,6.0
+video-transcoder,3.17,Tools,62949,4.4
+volume_control_android,4.16,Tools,59998,4.0.3
+wifisetup,4.5689654,Entertainment,10530,4.3
+wonderdroid-x,3.92,Arcade,51444,4.0
+ykDroid,4.114286,Tools,4264,5.0
+your-local-weather,3.9482758,Weather,5491,4.0
