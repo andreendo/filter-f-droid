@@ -79,19 +79,19 @@ motioneye-client,0,Tools,2070,VARY
 mundraub-android,1.3225807,Travel & Local,2988,4.0
 mynotes,0,Productivity,220,4.2
 onpc,4.39,Music & Audio,26567,4.0
-opensudoku,4.63,Puzzle,9642,4.0
+opensudoku,4.63,Games,9642,4.0
 osmtracker-android,4.17,Travel & Local,29966,4.1
 phyphox-android,4.466292,Education,854646,4.0
 pin,0,Tools,9,4.1
-planes,0,Board,12262,4.1
-privacy-friendly-2048,4.714286,Puzzle,641,5.0
-privacy-friendly-boardgame-clock,0,Board,307,5.0
+planes,0,Games,12262,4.1
+privacy-friendly-2048,4.714286,Games,641,5.0
+privacy-friendly-boardgame-clock,0,Games,307,5.0
 privacy-friendly-circuit-training-exercises,3.6666667,Health & Fitness,1890,5.0
-privacy-friendly-dame,3.6666667,Board,475,5.0
+privacy-friendly-dame,3.6666667,Games,475,5.0
 privacy-friendly-finance-manager,4.428571,Finance,668,5.0
 privacy-friendly-food-tracker,2.5,Food & Drink,293,5.0
 privacy-friendly-interval-timer,4.076923,Health & Fitness,2518,5.0
-privacy-friendly-minesweeper,4.4666667,Puzzle,903,5.0
+privacy-friendly-minesweeper,4.4666667,Games,903,5.0
 privacy-friendly-wifi-manager,3,Tools,2390,4.1
 pslab-android,4.73,Education,2343,6.0
 quickref,4.58,Productivity,41574,4.1
@@ -111,6 +111,6 @@ trekarta,4.31,Maps & Navigation,1906,6.0
 video-transcoder,3.17,Tools,62949,4.4
 volume_control_android,4.16,Tools,59998,4.0.3
 wifisetup,4.5689654,Entertainment,10530,4.3
-wonderdroid-x,3.92,Arcade,51444,4.0
+wonderdroid-x,3.92,Games,51444,4.0
 ykDroid,4.114286,Tools,4264,5.0
 your-local-weather,3.9482758,Weather,5491,4.0
