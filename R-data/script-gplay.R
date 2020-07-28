@@ -110,7 +110,6 @@ res <- cor(m2[,c(10,11,12,13,8)], m2[,c(218:269)], method = "spearman")
 
 res <- cor(m2[,c(10,11,12,13,8)], m2[,c(270:278)], method = "spearman")
 
-corrplot(res, type = "upper", order = "hclust", tl.col = "black", tl.srt = 45, is.corr = FALSE)
 par(mfrow = c(1, 1))
 corrplot(res, is.corr = FALSE, method = "color")
 ?corrplot
@@ -118,6 +117,20 @@ corrplot(res, is.corr = FALSE, method = "color")
 barplot(table(gplaydata$genre))
 library(ggplot2)
 table(gplaydata$genre)
+
+sd(gplaydata$score)
+mad(gplaydata$score)
+
+sd(gplaydata$installs)
+mad(gplaydata$installs)
+
+sd(m2$LINES_SRC)
+mad(m2$LINES_SRC)
+summary(m2$LINES_SRC)
+
+summary(m2$ARQ_LAYOUT)
+sd(m2$ARQ_LAYOUT)
+mad(m2$ARQ_LAYOUT)
 
 p <- ggplot(data=gplaydata, aes(x=genre)) + geom_bar() + geom_text(stat='count', aes(label=..count..), vjust=-1) 
 p <- p + scale_x_discrete(name ="Categories") + scale_y_continuous(name ="Number of Apps")
@@ -139,3 +152,45 @@ barplot(table(m2$AL.LabelFor > 0))
 barplot(table(m2$AL.GetContentDescriptionOverride > 0))
 
 boxplot(10000*m2$AL.TotalOfAccessibilityIssues/m2$LINES_SRC)
+
+accPerc <- 100*m2$AL.TotalOfAccessibilityIssues/m2$AL.TotalOfIssues
+accPerc[is.nan(accPerc)] <- 0
+summary(accPerc)
+
+100* (115 - sum(accPerc > 0)) / 115
+accPerc[accPerc > 0]
+
+
+hist(accPerc, breaks = 50, xlim = c(0, 50))
+hist(accPerc[accPerc > 0], breaks = 50, xlim = c(0, 50))
+
+hist(m2$AL.TotalOfAccessibilityIssues[m2$AL.TotalOfAccessibilityIssues > 0], breaks = 50, xlim = c(0, 50))
+summary(m2$AL.TotalOfAccessibilityIssues[m2$AL.TotalOfAccessibilityIssues > 0])
+
+accPerc2 <- m2$AL.TotalOfAccessibilityIssues/m2$LINES_SRC
+
+115 - 33
+
+table(accPerc)
+
+hist(accPerc2)
+plot(accPerc, accPerc2, log = 'x')
+cor.test(accPerc, accPerc2, method = "spearman")
+cor.test(m2$score, accPerc)
+summary(accPerc)
+
+m2[accPerc > 40,]$APP
+accPerc
+
+plot(m2$LINES_SRC, m2$AL.TotalOfAccessibilityIssues, log = 'xy')
+cor.test(m2$LINES_SRC, m2$AL.TotalOfAccessibilityIssues, method = "spearman")
+
+sum(m2$AL.GetContentDescriptionOverride > 0)
+sum(m2$AL.ContentDescription > 0)
+sum(m2$AL.LabelFor > 0)
+sum(m2$AL.ClickableViewAccessibility > 0)
+sum(m2$AL.KeyboardInaccessibleWidget > 0)
+
+
+summary(lint.partial01)
+
