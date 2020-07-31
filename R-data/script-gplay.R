@@ -194,3 +194,155 @@ sum(m2$AL.KeyboardInaccessibleWidget > 0)
 
 summary(lint.partial01)
 
+
+m2$acc_index <- as.integer((m2$SRC_setContentDescription + m2$XML_android.contentDescription) > 0)
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_addCaptioningChangeListener > 0) 
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.nextFocusForward + m2$SRC_setNextFocusForwardId) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.nextFocusUp + m2$SRC_setNextFocusUpId) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.nextFocusDown + m2$SRC_setNextFocusDownId) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.nextFocusLeft + m2$SRC_setNextFocusLeftId) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.nextFocusRight + m2$SRC_setNextFocusRightId) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.accessibilityPaneTitle + m2$SRC_setAccessibilityPaneTitle) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.accessibilityTraversalBefore + m2$SRC_setAccessibilityTraversalBefore) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.accessibilityTraversalAfter + m2$SRC_setAccessibilityTraversalAfter) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.accessibilityHeading + m2$SRC_setAccessibilityHeading) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.screenReaderFocusable + m2$SRC_setScreenReaderFocusable) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.hint + m2$SRC_setHint) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.labelFor + m2$SRC_setLabelFor) > 0)
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_onInitializeAccessibilityNodeInfo > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_replaceAccessibilityAction > 0) 
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.accessibilityLiveRegion + m2$SRC_setAccessibilityLiveRegion) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.importantForAccessibility + m2$SRC_setImportantForAccessibility) > 0)
+m2$acc_index <- m2$acc_index + as.integer((m2$XML_android.hapticFeedbackEnabled + m2$SRC_setHapticFeedbackEnabled) > 0)
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_sendAccessibilityEvent > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_sendAccessibilityEventUnchecked > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_dispatchPopulateAccessibilityEvent > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_onPopulateAccessibilityEvent > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_onInitializeAccessibilityNodeInfo.1 > 0) 
+m2$acc_index <- m2$acc_index + as.integer(m2$SRC_onRequestSendAccessibilityEvent > 0) 
+
+m2$acc_index
+m2$perc_acc_issues <- 100 * m2$AL.TotalOfAccessibilityIssues / m2$AL.TotalOfIssues
+m2$perc_acc_issues[is.nan(m2$perc_acc_issues)] <- 0
+summary(m2$perc_acc_issues)
+m2$acc_issues_loc <- m2$AL.TotalOfAccessibilityIssues / m2$LINES_SRC
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 1,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 1,]$perc_acc_issues, ylim = c(0, 15))
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 2,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 2,]$perc_acc_issues, ylim = c(0, 15))
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 3,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 3,]$perc_acc_issues, ylim = c(0, 15))
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 4,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 4,]$perc_acc_issues, ylim = c(0, 15))
+
+par(mfrow = c(1, 3))
+boxplot(m2$acc_issues_loc, ylim = c(0, 0.004))
+boxplot(m2[m2$acc_index < 4,]$acc_issues_loc, ylim = c(0, 0.004))
+boxplot(m2[m2$acc_index >= 4,]$acc_issues_loc, ylim = c(0, 0.004))
+
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 5,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 5,]$perc_acc_issues, ylim = c(0, 15))
+
+
+par(mfrow = c(1, 3))
+boxplot(m2$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index < 6,]$perc_acc_issues, ylim = c(0, 15))
+boxplot(m2[m2$acc_index >= 6,]$perc_acc_issues, ylim = c(0, 15))
+
+par(mfrow = c(1, 3))
+boxplot(m2$acc_index)
+boxplot(m2[m2$AL.TotalOfAccessibilityIssues == 0,]$acc_index)
+boxplot(m2[m2$AL.TotalOfAccessibilityIssues > 0,]$acc_index)
+
+
+m2[m2$acc_index >= 5,]$perc_acc_issues
+
+m2[m2$AL.TotalOfAccessibilityIssues == 0,]$acc_index
+
+par(mfrow = c(1, 2))
+plot(m2$acc_index, m2$perc_acc_issues)
+plot(m2$acc_index, m2$acc_issues_loc)
+
+
+
+cor.test(m2$acc_index, m2$perc_acc_issues, method = "spearman")
+cor.test(m2$acc_index, m2$acc_issues_loc, method = "spearman")
+
+
+#Mate data
+mate$app <- tolower(mate$projectname)
+summary(mate)
+
+m2$app <- tolower(m2$app)
+m3 <- merge(m2, mate)
+
+par(mfrow = c(1, 1))
+plot(mate$activities_executed, mate$violations)
+
+cor.test(mate$activities_executed, mate$violations, method = "spearman")
+boxplot(mate$violations)
+  
+plot(m3$AL.TotalOfAccessibilityIssues, m3$violations, log = 'y')
+cor.test(m3$AL.TotalOfAccessibilityIssues, m3$violations, method = "spearman")
+
+plot(m3$acc_index, m3$violations / m3$activities_executed)
+cor.test(m3$acc_index, m3$violations / m3$activities_executed, method = "spearman")
+
+
+# Some relation here
+plot(m3$acc_index, m3$violations / m3$LINES_SRC)
+cor.test(m3$acc_index, m3$violations / m3$LINES_SRC, method = "spearman")
+
+m3$mate_issues_per_loc <- m3$violations / m3$LINES_SRC
+
+m3$mate_issues_per_widgets <- m3$violations / m3$widgets
+m3$mate_issues_per_widgets <- m3$widgets_with_issues / m3$widgets
+cor.test(m3$acc_index, m3$mate_issues_per_widgets, method = "spearman")
+
+
+par(mfrow = c(1, 3))
+boxplot(m3$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index < 1,]$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index >= 1,]$mate_issues_per_loc, ylim = c(0, 0.1))
+
+sum(m3$acc_index < 2)
+sum(m3$acc_index >= 2)
+
+# Some relation here
+par(mfrow = c(1, 3))
+boxplot(m3$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index < 2,]$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index >= 2,]$mate_issues_per_loc, ylim = c(0, 0.1))
+
+par(mfrow = c(1, 3))
+boxplot(m3$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index < 3,]$mate_issues_per_loc, ylim = c(0, 0.1))
+boxplot(m3[m3$acc_index >= 3,]$mate_issues_per_loc, ylim = c(0, 0.1))
+
+par(mfrow = c(1, 1))
+plot(m3$acc_index, m3$score)
+cor.test(m3$acc_index, m3$score, method = "spearman")
+plot(m3$acc_index, m3$installs, log = 'y')
+cor.test(m3$acc_index, m3$installs, method = "spearman")
+
+colnames(mate)
+
+plot(m3$acc_issues_loc, m3$mate_issues_per_loc, log = 'xy')
+cor.test(m3$acc_issues_loc, m3$mate_issues_per_loc, method = "spearman")
+
+
