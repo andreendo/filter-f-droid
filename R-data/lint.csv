@@ -1,4 +1,4 @@
-app,AL-TotalOfIssues,AL-TotalOfAccessibilityIssues,AL-GetContentDescriptionOverride,AL-ClickableViewAccessibility,AL-ContentDescription,AL-KeyboardInaccessibleWidget,AL-LabelFor
+app,AL-total_issues,AL-total_acc_issues,AL-GetContentDescriptionOverride,AL-ClickableViewAccessibility,AL-ContentDescription,AL-KeyboardInaccessibleWidget,AL-LabelFor
 10000sentences,105,5,0,0,1,0,4
 ActivityDiary,93,2,0,0,1,0,1
 Aegis,191,23,0,0,21,0,2
