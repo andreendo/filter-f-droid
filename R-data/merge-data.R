@@ -194,3 +194,17 @@ cor.test(norm_by_loc$`CM-IndexAllCodeElements`, norm_by_loc$total_of_issues, met
 plot(analyzeData$`CM-IndexAllCodeElements`, analyzeData$total_of_issues, log = 'xy')
 cor.test(analyzeData$`CM-IndexAllCodeElements`, analyzeData$total_of_issues, method = "spearman")
 
+# to add in the paper
+summary(analyzeData$`CM-IndexAllCodeElements`)
+boxplot(analyzeData$`CM-IndexAllCodeElements`)
+
+sum(analyzeData$`CM-IndexAllCodeElements` > 10)
+
+par(mfrow = c(1, 6))
+boxplot(norm_by_loc$total_of_issues, ylim = c(0, 0.04))
+#boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` <= 7,]$total_of_issues, ylim = c(0, 0.1))
+boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` > 6,]$total_of_issues, ylim = c(0, 0.04))
+boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` > 7,]$total_of_issues, ylim = c(0, 0.04))
+boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` > 8,]$total_of_issues, ylim = c(0, 0.04))
+boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` > 9,]$total_of_issues, ylim = c(0, 0.04))
+boxplot(norm_by_loc[norm_by_loc$`CM-IndexAllCodeElements` > 10,]$total_of_issues, ylim = c(0, 0.04))

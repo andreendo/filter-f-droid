@@ -1,6 +1,11 @@
 library(readr)
 library("ggplot2")
 gplaydata <- read_csv("gplaydata.csv")
+gplaydata$app <- tolower(gplaydata$app)
+profmapp <- read_csv("./prof-mapp.csv")
+colnames(profmapp)[1] <- "app"
+
+
 View(gplaydata)
 summary(gplaydata)
 summary(gplaydata$score)
