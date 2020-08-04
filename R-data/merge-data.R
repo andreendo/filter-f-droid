@@ -9,7 +9,7 @@ gplaydata$app <- tolower(gplaydata$app)
 lint <- read_csv("./lint.csv")
 lint$app <- tolower(lint$app)
 
-mate <- read_csv("./mate.csv")
+mate <- read_csv("./mate-max.csv")
 colnames(mate)[1] <- "app"
 mate$app <- tolower(mate$app)
 colnames(mate)[5] <- "M-total_acc_issues"
@@ -103,12 +103,35 @@ analyzeData['GP-installs'] <- acc_dataset_full$installs
 
 # composed metrics
 # Sum of DIA code elements
+analyzeData['CM-SumDIACodeElements'] <- analyzeData$contentDescription + analyzeData$addCaptioningChangeListener + analyzeData$getFontScale + analyzeData$getLocale + analyzeData$screenOrientation + analyzeData$inputType + analyzeData$phoneNumber + analyzeData$password + analyzeData$numeric + analyzeData$digits + analyzeData$autoText + analyzeData$autoSizeTextType + analyzeData$textSize + analyzeData$textScaleX + analyzeData$autoSizeMaxTextSize + analyzeData$autoSizeMinTextSize + analyzeData$autoSizePresetSizes
+analyzeData['CM-SumDIACodeElements'] <- analyzeData['CM-SumDIACodeElements'] + analyzeData$lineSpacingMultiplier + analyzeData$lineSpacingExtra + analyzeData$letterSpacing + analyzeData$nextFocusForward + analyzeData$nextFocusUp + analyzeData$nextFocusDown + analyzeData$nextFocusLeft + analyzeData$nextFocusRight + analyzeData$accessibilityPaneTitle + analyzeData$accessibilityTraversalBefore + analyzeData$accessibilityTraversalAfter + analyzeData$accessibilityHeading + analyzeData$cursorVisible + analyzeData$minWidth
+analyzeData['CM-SumDIACodeElements'] <- analyzeData['CM-SumDIACodeElements'] + analyzeData$minHeight + analyzeData$screenReaderFocusable + analyzeData$hint + analyzeData$labelFor + analyzeData$onInitializeAccessibilityNodeInfo + analyzeData$replaceAccessibilityAction + analyzeData$accessibilityLiveRegion + analyzeData$importantForAccessibility + analyzeData$hapticFeedbackEnabled + analyzeData$sendAccessibilityEvent + analyzeData$sendAccessibilityEventUnchecked + analyzeData$dispatchPopulateAccessibilityEvent + analyzeData$onPopulateAccessibilityEvent + analyzeData$onRequestSendAccessibilityEvent
+
+analyzeData['CM-IndexDIACodeElements'] <- as.integer(analyzeData$contentDescription > 0) + as.integer(analyzeData$addCaptioningChangeListener > 0) + as.integer(analyzeData$getFontScale > 0) + as.integer(analyzeData$getLocale > 0) + as.integer(analyzeData$screenOrientation > 0) + as.integer(analyzeData$inputType > 0) + as.integer(analyzeData$phoneNumber > 0) + as.integer(analyzeData$password > 0) + as.integer(analyzeData$numeric > 0) + as.integer(analyzeData$digits > 0) + as.integer(analyzeData$autoText > 0) + as.integer(analyzeData$autoSizeTextType > 0) + as.integer(analyzeData$textSize > 0) + as.integer(analyzeData$textScaleX > 0) + as.integer(analyzeData$autoSizeMaxTextSize > 0) + as.integer(analyzeData$autoSizeMinTextSize > 0) + as.integer(analyzeData$autoSizePresetSizes > 0)
+analyzeData['CM-IndexDIACodeElements'] <- analyzeData['CM-IndexDIACodeElements'] + as.integer(analyzeData$lineSpacingMultiplier > 0) + as.integer(analyzeData$lineSpacingExtra > 0) + as.integer(analyzeData$letterSpacing > 0) + as.integer(analyzeData$nextFocusForward > 0) + as.integer(analyzeData$nextFocusUp > 0) + as.integer(analyzeData$nextFocusDown > 0) + as.integer(analyzeData$nextFocusLeft > 0) + as.integer(analyzeData$nextFocusRight > 0) + as.integer(analyzeData$accessibilityPaneTitle > 0) + as.integer(analyzeData$accessibilityTraversalBefore > 0) + as.integer(analyzeData$accessibilityTraversalAfter > 0) + as.integer(analyzeData$accessibilityHeading > 0) + as.integer(analyzeData$cursorVisible > 0) + as.integer(analyzeData$minWidth > 0)
+analyzeData['CM-IndexDIACodeElements'] <- analyzeData['CM-IndexDIACodeElements'] + as.integer(analyzeData$minHeight > 0) + as.integer(analyzeData$screenReaderFocusable > 0) + as.integer(analyzeData$hint > 0) + as.integer(analyzeData$labelFor > 0) + as.integer(analyzeData$onInitializeAccessibilityNodeInfo > 0) + as.integer(analyzeData$replaceAccessibilityAction > 0) + as.integer(analyzeData$accessibilityLiveRegion > 0) + as.integer(analyzeData$importantForAccessibility > 0) + as.integer(analyzeData$hapticFeedbackEnabled > 0) + as.integer(analyzeData$sendAccessibilityEvent > 0) + as.integer(analyzeData$sendAccessibilityEventUnchecked > 0) + as.integer(analyzeData$dispatchPopulateAccessibilityEvent > 0) + as.integer(analyzeData$onPopulateAccessibilityEvent > 0) + as.integer(analyzeData$onRequestSendAccessibilityEvent > 0)
+
+
 # Sum of IIA code elements
-# Sum of DIA and IIA code elements
-# Sum of perceivable elements
-# Sum of operable elements
-# Sum of understandable elements
-# Sum of robust elements
+analyzeData['CM-SumIIACodeElements'] <- + analyzeData$getUserStyle + analyzeData$isEnabled + analyzeData$removeCaptioningChangeListener + analyzeData$inputMethod + analyzeData$editable + analyzeData$background + analyzeData$textColor + analyzeData$animateLayoutChanges + analyzeData$focusable + analyzeData$onBindViewHolder
+
+analyzeData['CM-IndexIIACodeElements'] <- + as.integer(analyzeData$getUserStyle > 0) + as.integer(analyzeData$isEnabled > 0) + as.integer(analyzeData$removeCaptioningChangeListener > 0) + as.integer(analyzeData$inputMethod > 0) + as.integer(analyzeData$editable > 0) + as.integer(analyzeData$background > 0) + as.integer(analyzeData$textColor > 0) + as.integer(analyzeData$animateLayoutChanges > 0) + as.integer(analyzeData$focusable > 0) + as.integer(analyzeData$onBindViewHolder > 0)
+
+# # Sum of DIA and IIA code elements
+analyzeData['CM-SumAllCodeElements'] <- analyzeData$`CM-SumDIACodeElements` + analyzeData$`CM-SumIIACodeElements`
+
+analyzeData['CM-IndexAllCodeElements'] <- analyzeData$`CM-IndexDIACodeElements` + analyzeData$`CM-IndexIIACodeElements`
+
+# # Sum of perceivable elements
+analyzeData['CM-SumPerceivableCodeElements'] <- analyzeData$contentDescription + analyzeData$addCaptioningChangeListener + analyzeData$getFontScale + analyzeData$getLocale + analyzeData$screenOrientation + analyzeData$inputType + analyzeData$phoneNumber + analyzeData$password + analyzeData$numeric + analyzeData$digits + analyzeData$autoText + analyzeData$autoSizeTextType + analyzeData$textSize + analyzeData$textScaleX + analyzeData$autoSizeMaxTextSize + analyzeData$autoSizeMinTextSize + analyzeData$autoSizePresetSizes
+analyzeData['CM-SumPerceivableCodeElements'] <- analyzeData['CM-SumPerceivableCodeElements'] + analyzeData$lineSpacingMultiplier + analyzeData$lineSpacingExtra + analyzeData$letterSpacing + analyzeData$getUserStyle + analyzeData$isEnabled + analyzeData$removeCaptioningChangeListener + analyzeData$inputMethod + analyzeData$editable + analyzeData$background + analyzeData$textColor
+# # Sum of operable elements
+analyzeData['CM-SumOperableCodeElements'] <- analyzeData$nextFocusForward + analyzeData$nextFocusUp + analyzeData$nextFocusDown + analyzeData$nextFocusLeft + analyzeData$nextFocusRight + analyzeData$accessibilityPaneTitle + analyzeData$accessibilityTraversalBefore + analyzeData$accessibilityTraversalAfter + analyzeData$accessibilityHeading + analyzeData$cursorVisible + analyzeData$minWidth + analyzeData$minHeight   
+analyzeData['CM-SumOperableCodeElements'] <- analyzeData['CM-SumOperableCodeElements'] + analyzeData$animateLayoutChanges
+# # Sum of understandable elements
+analyzeData['CM-SumUnderstandableCodeElements'] <- analyzeData$screenReaderFocusable + analyzeData$hint + analyzeData$labelFor + analyzeData$focusable
+# # Sum of robust elements
+analyzeData['CM-SumRobustCodeElements'] <- analyzeData$onInitializeAccessibilityNodeInfo + analyzeData$replaceAccessibilityAction + analyzeData$accessibilityLiveRegion + analyzeData$importantForAccessibility + analyzeData$hapticFeedbackEnabled + analyzeData$sendAccessibilityEvent + analyzeData$sendAccessibilityEventUnchecked + analyzeData$dispatchPopulateAccessibilityEvent + analyzeData$onPopulateAccessibilityEvent + analyzeData$onRequestSendAccessibilityEvent + analyzeData$onBindViewHolder
 
 ###############
 #Issues
@@ -131,10 +154,10 @@ analyzeData['M-PageTitled'] <- acc_dataset_full$`M-PageTitled`
 analyzeData['M-acc_issues'] <- acc_dataset_full$`M-total_acc_issues`
 
 # WCAG
-analyzeData['W-perceivable_issues'] <- 
-analyzeData['W-operable_issues'] <- 
-analyzeData['W-understandable_issues'] <- 
-analyzeData['W-robust_issues'] <- 
+analyzeData['W-perceivable_issues'] <- analyzeData$`AL-GetContentDescriptionOverride` + analyzeData$`AL-ContentDescription` + analyzeData$`M-NonTextContent` + analyzeData$`M-IdentifyInputPurpose` + analyzeData$`M-ContrastMinimum` + analyzeData$`M-Spacing` + analyzeData$`M-Orientation`
+analyzeData['W-operable_issues'] <- analyzeData$`M-TargetSize` + analyzeData$`M-PageTitled`
+analyzeData['W-understandable_issues'] <- analyzeData$`AL-LabelFor` + analyzeData$`AL-KeyboardInaccessibleWidget`
+analyzeData['W-robust_issues'] <- analyzeData$`AL-ClickableViewAccessibility` + analyzeData$`M-DuplicateContentDescription`
 
 analyzeData$total_of_issues <- analyzeData$`AL-acc_issues` + analyzeData$`M-acc_issues`
 
@@ -145,4 +168,23 @@ norm_by_loc <- analyzeData / acc_dataset_full$LINES_SRC
 norm_by_loc$app <- analyzeData$app
 norm_by_loc$`GP-score` <- analyzeData$`GP-score`
 norm_by_loc$`GP-installs` <- analyzeData$`GP-installs`
+norm_by_loc$`CM-IndexDIACodeElements` <- analyzeData$`CM-IndexDIACodeElements`
+norm_by_loc$`CM-IndexIIACodeElements` <- analyzeData$`CM-IndexIIACodeElements`
+norm_by_loc$`CM-IndexAllCodeElements` <- analyzeData$`CM-IndexAllCodeElements`
 write_csv(norm_by_loc, "./analyzeData-normalized-by-loc.csv")
+
+# plot(norm_by_loc$`CM-IndexDIACodeElements`, norm_by_loc$`M-acc_issues`, log = 'xy')
+# cor.test(norm_by_loc$`CM-IndexDIACodeElements`, norm_by_loc$`M-acc_issues`, method = "spearman")
+# 
+# plot(norm_by_loc$`CM-IndexDIACodeElements`, norm_by_loc$total_of_issues, log = 'xy')
+# cor.test(norm_by_loc$`CM-IndexDIACodeElements`, norm_by_loc$total_of_issues, method = "spearman")
+# 
+# plot(norm_by_loc$`CM-IndexIIACodeElements`, norm_by_loc$total_of_issues, log = 'y')
+# cor.test(norm_by_loc$`CM-IndexIIACodeElements`, norm_by_loc$total_of_issues, method = "spearman")
+# 
+# plot(norm_by_loc$`CM-SumAllCodeElements`, norm_by_loc$total_of_issues, log = 'xy')
+# cor.test(norm_by_loc$`CM-SumAllCodeElements`, norm_by_loc$total_of_issues, method = "spearman")
+
+# most significant
+plot(norm_by_loc$`CM-IndexAllCodeElements`, norm_by_loc$total_of_issues, log = 'xy')
+cor.test(norm_by_loc$`CM-IndexAllCodeElements`, norm_by_loc$total_of_issues, method = "spearman")
