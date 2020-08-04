@@ -9,18 +9,20 @@ gplaydata$app <- tolower(gplaydata$app)
 lint <- read_csv("./lint.csv")
 lint$app <- tolower(lint$app)
 
+####TODO FIX COLUMNS ORDER AND ADD USE 0F COLOR
 mate <- read_csv("./mate-max.csv")
 colnames(mate)[1] <- "app"
 mate$app <- tolower(mate$app)
-colnames(mate)[5] <- "M-total_acc_issues"
+colnames(mate)[6] <- "M-total_acc_issues"
 colnames(mate)[9] <- "M-NonTextContent"
 colnames(mate)[10] <- "M-IdentifyInputPurpose"
 colnames(mate)[11] <- "M-ContrastMinimum"
 colnames(mate)[12] <- "M-TargetSize"
 colnames(mate)[13] <- "M-DuplicateContentDescription"
 colnames(mate)[14] <- "M-Spacing"
-colnames(mate)[15] <- "M-Orientation"
-colnames(mate)[16] <- "M-PageTitled"
+colnames(mate)[15] <- "M-UseOfColor"
+colnames(mate)[16] <- "M-Orientation"
+colnames(mate)[17] <- "M-PageTitled"
 
 acc_dataset_full <- merge(profmapp, gplaydata)
 acc_dataset_full <- merge(acc_dataset_full, lint)
@@ -188,3 +190,7 @@ write_csv(norm_by_loc, "./analyzeData-normalized-by-loc.csv")
 # most significant
 plot(norm_by_loc$`CM-IndexAllCodeElements`, norm_by_loc$total_of_issues, log = 'xy')
 cor.test(norm_by_loc$`CM-IndexAllCodeElements`, norm_by_loc$total_of_issues, method = "spearman")
+
+plot(analyzeData$`CM-IndexAllCodeElements`, analyzeData$total_of_issues, log = 'xy')
+cor.test(analyzeData$`CM-IndexAllCodeElements`, analyzeData$total_of_issues, method = "spearman")
+
