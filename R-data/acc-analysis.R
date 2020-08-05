@@ -20,3 +20,19 @@ p <- ggplot(data, aes(x=data$`CM-IndexDIACodeElements`)) + geom_bar() + geom_tex
 p + scale_x_continuous("Number of different types of code elements used", labels = as.character(c(0:26)), breaks = c(0:26)) + scale_y_continuous(name ="Number of Apps")
 
 data[data$`CM-IndexDIACodeElements` == 0,]$app
+
+library(corrplot)
+res <- cor(data[,c(57:68)], data[,c(70:88)], method = "spearman")
+
+cor.test(data[,c(57:68)], data[,c(70:88)], method = "spearman")
+
+cor.test(data$`GP-installs`, data$`M-Orientation`, method = "spearman")
+
+plot(data$`GP-installs`, data$`M-Orientation`, log = 'xy')
+
+boxplot(data$`M-Orientation`)
+
+par(mfrow = c(1, 1))
+corrplot(res, is.corr = FALSE, method = "number")
+res
+
