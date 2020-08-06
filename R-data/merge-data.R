@@ -15,14 +15,15 @@ colnames(mate)[1] <- "app"
 mate$app <- tolower(mate$app)
 colnames(mate)[6] <- "M-total_acc_issues"
 colnames(mate)[9] <- "M-NonTextContent"
-colnames(mate)[10] <- "M-IdentifyInputPurpose"
-colnames(mate)[11] <- "M-ContrastMinimum"
-colnames(mate)[12] <- "M-TargetSize"
-colnames(mate)[13] <- "M-DuplicateContentDescription"
-colnames(mate)[14] <- "M-Spacing"
-colnames(mate)[15] <- "M-UseOfColor"
-colnames(mate)[16] <- "M-Orientation"
-colnames(mate)[17] <- "M-PageTitled"
+colnames(mate)[10] <- "M-LabelOrInstructions"
+colnames(mate)[11] <- "M-IdentifyInputPurpose"
+colnames(mate)[12] <- "M-ContrastMinimum"
+colnames(mate)[13] <- "M-TargetSize"
+colnames(mate)[14] <- "M-DuplicateContentDescription"
+colnames(mate)[15] <- "M-Spacing"
+colnames(mate)[16] <- "M-UseOfColor"
+colnames(mate)[17] <- "M-Orientation"
+colnames(mate)[18] <- "M-PageTitled"
 
 acc_dataset_full <- merge(profmapp, gplaydata)
 acc_dataset_full <- merge(acc_dataset_full, lint)
@@ -78,10 +79,10 @@ analyzeData$accessibilityHeading <- acc_dataset_full$`XML_android:accessibilityH
 analyzeData$cursorVisible <- acc_dataset_full$`XML_android:cursorVisible` + acc_dataset_full$SRC_setCursorVisible
 analyzeData$minWidth <- acc_dataset_full$`XML_androind:minWidth` + acc_dataset_full$SRC_setMinWidth
 analyzeData$minHeight <- acc_dataset_full$`XML_androind:minHeight` + acc_dataset_full$SRC_setMinHeight
-
-# understandable
 analyzeData$screenReaderFocusable <- acc_dataset_full$`XML_androind:screenReaderFocusable` + acc_dataset_full$SRC_setScreenReaderFocusable
 analyzeData$focusable <- acc_dataset_full$`XML_androind:focusable` + acc_dataset_full$SRC_setFocusable
+
+# understandable
 analyzeData$hint <- acc_dataset_full$`XML_android:hint` + acc_dataset_full$SRC_setHint
 analyzeData$labelFor <- acc_dataset_full$`XML_android:labelFor` + acc_dataset_full$SRC_setLabelFor
 
@@ -129,9 +130,9 @@ analyzeData['CM-SumPerceivableCodeElements'] <- analyzeData$contentDescription +
 analyzeData['CM-SumPerceivableCodeElements'] <- analyzeData['CM-SumPerceivableCodeElements'] + analyzeData$lineSpacingMultiplier + analyzeData$lineSpacingExtra + analyzeData$letterSpacing + analyzeData$getUserStyle + analyzeData$isEnabled + analyzeData$removeCaptioningChangeListener + analyzeData$inputMethod + analyzeData$editable + analyzeData$background + analyzeData$textColor
 # # Sum of operable elements
 analyzeData['CM-SumOperableCodeElements'] <- analyzeData$nextFocusForward + analyzeData$nextFocusUp + analyzeData$nextFocusDown + analyzeData$nextFocusLeft + analyzeData$nextFocusRight + analyzeData$accessibilityPaneTitle + analyzeData$accessibilityTraversalBefore + analyzeData$accessibilityTraversalAfter + analyzeData$accessibilityHeading + analyzeData$cursorVisible + analyzeData$minWidth + analyzeData$minHeight   
-analyzeData['CM-SumOperableCodeElements'] <- analyzeData['CM-SumOperableCodeElements'] + analyzeData$animateLayoutChanges
+analyzeData['CM-SumOperableCodeElements'] <- analyzeData['CM-SumOperableCodeElements'] + analyzeData$animateLayoutChanges + analyzeData$screenReaderFocusable + analyzeData$focusable
 # # Sum of understandable elements
-analyzeData['CM-SumUnderstandableCodeElements'] <- analyzeData$screenReaderFocusable + analyzeData$hint + analyzeData$labelFor + analyzeData$focusable
+analyzeData['CM-SumUnderstandableCodeElements'] <- analyzeData$hint + analyzeData$labelFor
 # # Sum of robust elements
 analyzeData['CM-SumRobustCodeElements'] <- analyzeData$onInitializeAccessibilityNodeInfo + analyzeData$replaceAccessibilityAction + analyzeData$accessibilityLiveRegion + analyzeData$importantForAccessibility + analyzeData$hapticFeedbackEnabled + analyzeData$sendAccessibilityEvent + analyzeData$sendAccessibilityEventUnchecked + analyzeData$dispatchPopulateAccessibilityEvent + analyzeData$onPopulateAccessibilityEvent + analyzeData$onRequestSendAccessibilityEvent + analyzeData$onBindViewHolder
 
@@ -146,6 +147,7 @@ analyzeData['AL-LabelFor'] <- acc_dataset_full$`AL-LabelFor`
 analyzeData['AL-acc_issues'] <- acc_dataset_full$`AL-total_acc_issues`
 
 analyzeData['M-NonTextContent'] <- acc_dataset_full$`M-NonTextContent`
+analyzeData['M-LabelOrInstructions'] <- acc_dataset_full$`M-LabelOrInstructions`
 analyzeData['M-IdentifyInputPurpose'] <- acc_dataset_full$`M-IdentifyInputPurpose`
 analyzeData['M-ContrastMinimum'] <- acc_dataset_full$`M-ContrastMinimum`
 analyzeData['M-TargetSize'] <- acc_dataset_full$`M-TargetSize`
@@ -156,10 +158,10 @@ analyzeData['M-PageTitled'] <- acc_dataset_full$`M-PageTitled`
 analyzeData['M-acc_issues'] <- acc_dataset_full$`M-total_acc_issues`
 
 # WCAG
-analyzeData['W-perceivable_issues'] <- analyzeData$`AL-GetContentDescriptionOverride` + analyzeData$`AL-ContentDescription` + analyzeData$`M-NonTextContent` + analyzeData$`M-IdentifyInputPurpose` + analyzeData$`M-ContrastMinimum` + analyzeData$`M-Spacing` + analyzeData$`M-Orientation`
-analyzeData['W-operable_issues'] <- analyzeData$`M-TargetSize` + analyzeData$`M-PageTitled`
-analyzeData['W-understandable_issues'] <- analyzeData$`AL-LabelFor` + analyzeData$`AL-KeyboardInaccessibleWidget`
-analyzeData['W-robust_issues'] <- analyzeData$`AL-ClickableViewAccessibility` + analyzeData$`M-DuplicateContentDescription`
+analyzeData['W-perceivable_issues'] <- analyzeData$`AL-GetContentDescriptionOverride` + analyzeData$`AL-ContentDescription` + analyzeData$`M-NonTextContent` + analyzeData$`M-IdentifyInputPurpose` + analyzeData$`M-ContrastMinimum` + analyzeData$`M-Orientation` + analyzeData$`M-DuplicateContentDescription`
+analyzeData['W-operable_issues'] <- analyzeData$`M-TargetSize` + analyzeData$`M-PageTitled` + analyzeData$`AL-KeyboardInaccessibleWidget` + analyzeData$`M-Spacing`
+analyzeData['W-understandable_issues'] <- analyzeData$`AL-LabelFor` + analyzeData$`M-LabelOrInstructions`
+analyzeData['W-robust_issues'] <- analyzeData$`AL-ClickableViewAccessibility`
 
 analyzeData$total_of_issues <- analyzeData$`AL-acc_issues` + analyzeData$`M-acc_issues`
 
